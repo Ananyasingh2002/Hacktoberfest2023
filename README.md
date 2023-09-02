@@ -40,7 +40,7 @@ images/<YOUR-USERNAME>.png
 
 ## 2. Add your profile information
 
-Create a markdown file in your folder following the convention `content/participant/<YOUR-USERNAME>.md`. Ex.
+Create a markdown file in your folder following the convention `participant/<YOUR-USERNAME>.md`. Ex.
 
 ```
 participant/<YOUR-USERNAME>.md
