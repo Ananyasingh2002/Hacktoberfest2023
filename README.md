@@ -1,4 +1,4 @@
-# HacktoberFest 2023 `OPEN FIRST` Pull Request - `FREE T-SHIRT`🎉
+# HacktoberFest 2023 `GOOD FIRST` Pull Request - `FREE T-SHIRT`🎉
 ![HacktoberFest 2023](.github/logo.png)
 
 
@@ -26,6 +26,7 @@
 - Create a pull request
 
 - Star this repository
+
 
 # How To Make Your First Pull Request
 
