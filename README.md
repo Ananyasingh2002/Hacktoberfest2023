@@ -63,10 +63,10 @@ github:USERNAME
 ## 5. Celebrate - you've done your first pull request!!
 
 '''
-Aim to make more than 4 pull requests.
-Imagine you've only made 4 pull requests to different projects,
-but one of those projects isn't part of the Hacktoberfest event. In that case, your pull request won't be counted, leaving you with just 3 valid ones if those projects aren't excluded either.
-To ensure your success, I recommend making a pull request to your own repo, as long as it has the Hacktoberfest topic.
+- Aim to make more than 4 pull requests.
+- Imagine you've only made 4 pull requests to different projects, but one of those projects isn't part of the Hacktoberfest event.
+- In that case, your pull request won't be counted, leaving you with just 3 valid ones if those projects aren't excluded either.
+- To ensure your success, I recommend making a pull request to your own repo, as long as it has the Hacktoberfest topic.
 '''
 
 
