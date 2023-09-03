@@ -7,8 +7,7 @@
 
 📢 Sign up for Hacktoberfest 2023, and contribute four pull requests (PRs) between October 1st-31st to claim your stash of cool SWAGS 🔥.
 
-visit:
-https://hacktoberfest.com/participation/
+# Visit: https://hacktoberfest.com/participation/
 
 
 
