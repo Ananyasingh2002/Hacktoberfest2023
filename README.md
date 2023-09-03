@@ -70,9 +70,9 @@ To ensure your success, I recommend making a pull request to your own repo, as l
 
 # + Follow Me: Swift Approval of Your Quest 🚀
 
-'''
+
 To expedite approval of your pull request, (`Follow Me`)🚀
-'''
+
 
 <tr><td align="center"><a href="https://github.com/Ananyasingh2002"><kbd><img src=".github/ananya.jpg" width="100px;" alt=""/></kbd><br /><sub><b>Ananya singh</b></sub></a><br /></td>
 
