@@ -58,7 +58,9 @@ github:USERNAME
 
 ## 3. Wait for Pull Request to merge
 
-## 4. Celebrate - you've done your first pull request!!
+## 4. Here is a quick reference guide for GitHub: [GitHub Guide](https://github.com/git-guides)
+
+## 5. Celebrate - you've done your first pull request!!
 
 '''
 Aim to make more than 4 pull requests.
