@@ -15,7 +15,7 @@
 
 - Fork this Repository using the button at the top on right corner.
 
-  ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/1449f6d7-dc05-4d36-9228-53df4f6312be)
+  ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
 
 - Clone your forked repository to your pc `git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git`
 
