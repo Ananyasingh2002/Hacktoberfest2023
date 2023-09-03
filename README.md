@@ -16,7 +16,11 @@ https://hacktoberfest.com/participation/
 
 - Fork this Repository using the button at the top on right corner.
 
-- Clone your forked repository to your pc `git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git` 
+  ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/1449f6d7-dc05-4d36-9228-53df4f6312be)
+
+- Clone your forked repository to your pc `git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git`
+
+  ![clone_2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/3cdde31e-6e9a-49e8-899c-78ff5d23e20f)
 
 - Carve your own path with a new branch for your modifications (ie. `git branch new-user` and check it out `git checkout new-user` or simply do `git checkout -b new-user`)
 
@@ -65,12 +69,15 @@ github:USERNAME
 
 ## 5. Celebrate - you've done your first pull request!!
 
-'''
+
 - Aim to make more than 4 pull requests.
+  
 - Imagine you've only made 4 pull requests to different projects, but one of those projects isn't part of the Hacktoberfest event.
+  
 - In that case, your pull request won't be counted, leaving you with just 3 valid ones if those projects aren't excluded either.
+  
 - To ensure your success, I recommend making a pull request to your own repo, as long as it has the Hacktoberfest topic.
-'''
+
 
 
 # + Follow Me: Swift Approval of Your Quest 🚀
