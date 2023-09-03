@@ -19,7 +19,7 @@
 
 - Clone your forked repository to your pc `git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git`
 
-  ![clone_2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/3cdde31e-6e9a-49e8-899c-78ff5d23e20f)
+  ![clone_2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/a61a60a1-7c42-484d-a38c-03db0e372aa0)
 
 - Carve your own path with a new branch for your modifications (ie. `git branch new-user` and check it out `git checkout new-user` or simply do `git checkout -b new-user`)
 
