@@ -134,7 +134,7 @@ Welcome to our Hacktoberfest 2023 contributing website! We're excited to have yo
 Add a picture picture of your choice in `assets/images/<YOUR-USERNAME>.png`. Accepted files are **png** and **jpg**, Ex.
 
 ```
-images/<YOUR-USERNAME>.png
+assets/images/<YOUR-USERNAME>.png
 ```
 
 ## 2. Now, please navigate to the `index.html` file, open it, read the instructions in the code, copy down the line and add your information.
