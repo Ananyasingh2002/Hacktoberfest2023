@@ -213,9 +213,9 @@ h1{
   transition:1s;
   -webkit-transition:1s;
 }
-/* Here make a new class .card(as your number below) and add the same path of url(assests/images/yourimage.png)*/
+/* Here make a new class .card(as your number below) and add the same path of url(assets/images/yourimage.png)*/
 .card1{
-   background-image: url(assests/images/Ananya.jpg);
+   background-image: url(assets/images/Ananya.jpg);
 }
 
 .line{
