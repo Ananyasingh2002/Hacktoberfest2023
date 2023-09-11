@@ -1,4 +1,4 @@
-# HacktoberFest 2023 `GOOD FIRST` Pull Request - `FREE T-SHIRT`🎉
+# HacktoberFest 2023 `GOOD FIRST` Pull Request - `Digital Rewards`🎉
 ![HacktoberFest 2023](.github/logo.png)
 
 
