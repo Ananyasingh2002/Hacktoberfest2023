@@ -10,8 +10,9 @@
 ## To participate, visit: https://hacktoberfest.com/participation/
 
 
+# Task 1
 
-# INSTRUCTIONS - Get Ready for the Adventure 🧭
+## INSTRUCTIONS - Get Ready for the Adventure 🧭
 
 - Fork this Repository using the button at the top on right corner.
 
@@ -76,6 +77,39 @@ github:USERNAME
 - In that case, your pull request won't be counted, leaving you with just 3 valid ones if those projects aren't excluded either.
   
 - To ensure your success, I recommend making a pull request to your own repo, as long as it has the Hacktoberfest topic.
+
+
+# Task 2
+
+## INSTRUCTIONS - Get Ready for the Adventure 🧭
+
+Welcome to our Hacktoberfest 2023 contributing website! We're excited to have you on board. Follow the steps below to contribute and add your name, picture, LinkedIn profile, and GitHub profile to our contributors' list.
+
+## Getting Started
+
+- Fork this repository to your GitHub account by clicking the "Fork" button at the top right of this page.
+   ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
+- Clone your forked repository to your local machine. Replace `<your-username>` with your GitHub username:
+
+   ```bash
+   git clone https://github.com/<your-username>/hacktoberfest-2023-contributors.git
+   ```
+
+- Navigate to the project directory: `cd hacktoberfest-2023-contributors`
+
+- Create a new branch for your changes. Replace <branch-name> with a descriptive branch name: `git checkout -b <branch-name>`
+
+- Leave your mark by adding your profile image to `assests/images` (drag and drop or upload with commands or by your name).
+
+- Chronicle your legend by crafting your profile data in `index.html and CSS(add your image address)` (add your information here)
+
+- Blaze your trail with these commands: `git add -A` or `git add .`, `git commit -m "added myself"`, and `git push origin new-explorer`
+
+- Create a pull request
+
+- Star this repository
+
 
 
 
