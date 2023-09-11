@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+/* Go to line 216 for adding the image in css */
 
 *{
   margin: 0px;
@@ -212,7 +213,7 @@ h1{
   transition:1s;
   -webkit-transition:1s;
 }
-
+/* Here make a new class .card(as your number below) and add the same path of url(assests/images/yourimage.png)*/
 .card1{
    background-image: url(assests/images/Ananya.jpg);
 }
