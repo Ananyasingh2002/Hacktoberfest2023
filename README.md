@@ -88,11 +88,14 @@ github:USERNAME
 
 # Task 2
 
-## INSTRUCTIONS - Get Ready for the Adventure 🧭
+## Hacktoberfest 2023 Contribution Guide
+
 
 Welcome to our Hacktoberfest 2023 contributing website! We're excited to have you on board. Follow the steps below to contribute and add your name, picture, LinkedIn profile, and GitHub profile to our contributors' list.
 
-## Getting Started
+
+## INSTRUCTIONS - Get Ready for the Adventure 🧭
+
 
 - Fork this repository to your GitHub account by clicking the "Fork" button at the top right of this page.
    ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
@@ -117,6 +120,57 @@ Welcome to our Hacktoberfest 2023 contributing website! We're excited to have yo
 
 - Star this repository
 
+
+
+
+# How To Make Your First Pull Request
+
+
+## 1. Add your profile picture to the folder
+
+Add a picture picture of your choice in `assects/images/<YOUR-USERNAME>.png`. Accepted files are **png** and **jpg**, Ex.
+
+```
+images/<YOUR-USERNAME>.png
+```
+
+## 2. Now, please navigate to the `index.html` file, open it, read the instructions in the code, copy down the line and add your information.
+
+ ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
+
+
+## 3. Change the class name below 
+
+```
+<div class="card_img card1">
+   <div class="plus"></div>
+</div>
+```
+ ![img_fork_2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
+So, essentially, you are instructing the reader to change the class name of the first <div> element to include a number that corresponds to their specific use case. For instance, if their number is 2, the modified code would look like this:
+
+```
+<div class="card_img card2">
+   <div class="plus"></div>
+</div>
+```
+
+ ![img_fork_3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
+
+## 4. Now, please navigate to the `style.css` file, read the instructions, and add the class `.card(as your number is)` along with the image path.
+
+  ```url('assests/images/<YOUR-USERNAME>.png')```
+  
+   ![img_fork_4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
+
+## 5. Wait for Pull Request to merge
+
+
+## 6. Celebrate - you've done your first pull request!!
 
 
 
