@@ -136,7 +136,14 @@ images/<YOUR-USERNAME>.png
 
 ## 2. Now, please navigate to the `index.html` file, open it, read the instructions in the code, copy down the line and add your information.
 
- ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+![2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/7177298f-d0d8-468a-bd1e-44b0f89fddb1)
+
+Enter your details here:
+
+![3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/6825937d-e0fb-461d-857c-95febd458a16)
+
+
+
 
 
 
@@ -147,7 +154,8 @@ images/<YOUR-USERNAME>.png
    <div class="plus"></div>
 </div>
 ```
- ![img_fork_2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
+![5](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/587aa1dc-9f0a-4343-848f-4a3832f0dbff)
 
 So, essentially, you are instructing the reader to change the class name of the first <div> element to include a number that corresponds to their specific use case. For instance, if their number is 2, the modified code would look like this:
 
@@ -156,15 +164,17 @@ So, essentially, you are instructing the reader to change the class name of the 
    <div class="plus"></div>
 </div>
 ```
-
- ![img_fork_3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+![4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/9db2ed94-6c73-46b1-a0e1-bd5a3c115592)
 
 
 ## 4. Now, please navigate to the `style.css` file, read the instructions, and add the class `.card(as your number is)` along with the image path.
 
   ```url('assests/images/<YOUR-USERNAME>.png')```
   
-   ![img_fork_4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+![4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/9db2ed94-6c73-46b1-a0e1-bd5a3c115592)
+
+
+
 
 
 ## 5. Wait for Pull Request to merge
