@@ -158,7 +158,8 @@ Enter your details here:
 </div>
 ```
 
-![5](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/587aa1dc-9f0a-4343-848f-4a3832f0dbff)
+
+![2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/3c8cbf00-ae16-47fe-80f2-d8644d9cf88c)
 
 So, essentially, you are instructing the reader to change the class name of the first <div> element to include a number that corresponds to their specific use case. For instance, if their number is 2, the modified code would look like this:
 
@@ -167,7 +168,8 @@ So, essentially, you are instructing the reader to change the class name of the 
    <div class="plus"></div>
 </div>
 ```
-![1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b4d96181-a871-420e-a3e4-e645c3d92db7)
+![3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b971fdd7-574c-4661-888c-3ddb0f22d2e3)
+
 
 
 
