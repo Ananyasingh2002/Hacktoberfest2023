@@ -3,7 +3,8 @@
 
 
 # The Open Source Adventure Awaits! 🗺️
-🌐 HacktoberFest is your gateway to the vibrant world of open source. Join us on this epic journey and earn yourself an exclusive T-shirt.
+
+🌐 HacktoberFest is your gateway to the vibrant world of open source. This year marks the 10th anniversary of Hacktoberfest, and we’re calling on your support! Join us on this epic journey and earn yourself an exclusive digital reward kit from DigitalOcean and our sponsors and partners..
 
 📢 Sign up for Hacktoberfest 2023, and contribute four pull requests (PRs) between October 1st-31st to claim your stash of cool SWAGS 🔥.
 
