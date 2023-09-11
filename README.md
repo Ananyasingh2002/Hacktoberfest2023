@@ -86,7 +86,7 @@ github:USERNAME
 
 
 
-# Task 2
+# Task 2.0
 
 ## INSTRUCTIONS - Get Ready for the Adventure 🧭
 
