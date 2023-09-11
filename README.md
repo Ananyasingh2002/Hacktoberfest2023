@@ -10,6 +10,9 @@
 ## To participate, visit: https://hacktoberfest.com/participation/
 
 
+
+
+
 # Task 1
 
 ## INSTRUCTIONS - Get Ready for the Adventure 🧭
@@ -77,6 +80,10 @@ github:USERNAME
 - In that case, your pull request won't be counted, leaving you with just 3 valid ones if those projects aren't excluded either.
   
 - To ensure your success, I recommend making a pull request to your own repo, as long as it has the Hacktoberfest topic.
+
+
+
+
 
 
 # Task 2
