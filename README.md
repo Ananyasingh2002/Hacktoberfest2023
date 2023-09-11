@@ -164,7 +164,8 @@ So, essentially, you are instructing the reader to change the class name of the 
    <div class="plus"></div>
 </div>
 ```
-![4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/9db2ed94-6c73-46b1-a0e1-bd5a3c115592)
+![1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b4d96181-a871-420e-a3e4-e645c3d92db7)
+
 
 
 ## 4. Now, please navigate to the `style.css` file, read the instructions, and add the class `.card(as your number is)` along with the image path.
@@ -172,8 +173,6 @@ So, essentially, you are instructing the reader to change the class name of the 
   ```url('assests/images/<YOUR-USERNAME>.png')```
   
 ![4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/9db2ed94-6c73-46b1-a0e1-bd5a3c115592)
-
-
 
 
 
