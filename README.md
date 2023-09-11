@@ -13,7 +13,7 @@
 
 
 
-# Task 1
+# Task 1.0
 
 ## INSTRUCTIONS - Get Ready for the Adventure 🧭
 
@@ -86,7 +86,7 @@ github:USERNAME
 
 
 
-# Task 2
+# Task 2.0
 
 ## Hacktoberfest 2023 Contribution Guide
 

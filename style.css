@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap");
 
 /* Go to line 216 for adding the image in css */
 
@@ -124,7 +125,7 @@
 }
 
 h1{
-  font-family: lato;
+  font-family: JetBrains Mono,monospace;
   color:white;
   font-weight: 400;
   font-size:35px;
@@ -216,6 +217,9 @@ h1{
 /* Here make a new class .card(as your number below) and add the same path of url(assets/images/yourimage.png)*/
 .card1{
    background-image: url(assets/images/Ananya.jpg);
+}
+.card2{
+  background-image: url(assests/images/Yash.jpeg);
 }
 
 .line{
