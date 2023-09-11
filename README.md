@@ -177,7 +177,7 @@ So, essentially, you are instructing the reader to change the class name of the 
 
   ```url('assets/images/<YOUR-USERNAME>.png')```
 
-![1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/921595da-28dc-4710-9a25-ffc56987ba57)
+![1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b4d96181-a871-420e-a3e4-e645c3d92db7)
 
 
 
