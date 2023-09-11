@@ -94,6 +94,9 @@ github:USERNAME
 Welcome to our Hacktoberfest 2023 contributing website! We're excited to have you on board. Follow the steps below to contribute and add your name, picture, LinkedIn profile, and GitHub profile to our contributors' list.
 
 
+## Here is the link to the website: https://ananyasingh2002.github.io/Hacktoberfest2023/
+
+
 ## INSTRUCTIONS - Get Ready for the Adventure 🧭
 
 
@@ -103,14 +106,14 @@ Welcome to our Hacktoberfest 2023 contributing website! We're excited to have yo
 - Clone your forked repository to your local machine. Replace `<your-username>` with your GitHub username:
 
    ```bash
-   git clone https://github.com/<your-username>/hacktoberfest-2023-contributors.git
+   git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git
    ```
 
-- Navigate to the project directory: `cd hacktoberfest-2023-contributors`
+- Navigate to the project directory: `cd Hacktoberfest2023`
 
 - Create a new branch for your changes. Replace <branch-name> with a descriptive branch name: `git checkout -b <branch-name>`
 
-- Leave your mark by adding your profile image to `assests/images` (drag and drop or upload with commands or by your name).
+- Leave your mark by adding your profile image to `assets/images` (drag and drop or upload with commands or by your name).
 
 - Chronicle your legend by crafting your profile data in `index.html and CSS(add your image address)` (add your information here)
 
@@ -128,15 +131,22 @@ Welcome to our Hacktoberfest 2023 contributing website! We're excited to have yo
 
 ## 1. Add your profile picture to the folder
 
-Add a picture picture of your choice in `assects/images/<YOUR-USERNAME>.png`. Accepted files are **png** and **jpg**, Ex.
+Add a picture picture of your choice in `assets/images/<YOUR-USERNAME>.png`. Accepted files are **png** and **jpg**, Ex.
 
 ```
-images/<YOUR-USERNAME>.png
+assets/images/<YOUR-USERNAME>.png
 ```
 
 ## 2. Now, please navigate to the `index.html` file, open it, read the instructions in the code, copy down the line and add your information.
 
- ![img_fork_1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+![2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/7177298f-d0d8-468a-bd1e-44b0f89fddb1)
+
+Enter your details here:
+
+![3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/6825937d-e0fb-461d-857c-95febd458a16)
+
+
+
 
 
 
@@ -147,7 +157,9 @@ images/<YOUR-USERNAME>.png
    <div class="plus"></div>
 </div>
 ```
- ![img_fork_2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
+
+![2](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/3c8cbf00-ae16-47fe-80f2-d8644d9cf88c)
 
 So, essentially, you are instructing the reader to change the class name of the first <div> element to include a number that corresponds to their specific use case. For instance, if their number is 2, the modified code would look like this:
 
@@ -156,21 +168,32 @@ So, essentially, you are instructing the reader to change the class name of the 
    <div class="plus"></div>
 </div>
 ```
+![3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b971fdd7-574c-4661-888c-3ddb0f22d2e3)
 
- ![img_fork_3](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+
 
 
 ## 4. Now, please navigate to the `style.css` file, read the instructions, and add the class `.card(as your number is)` along with the image path.
 
-  ```url('assests/images/<YOUR-USERNAME>.png')```
-  
-   ![img_fork_4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/bcb92dfb-0c7f-4f6f-976c-05acbfdcd3f2)
+  ```url('assets/images/<YOUR-USERNAME>.png')```
+
+![1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/b4d96181-a871-420e-a3e4-e645c3d92db7)
+
 
 
 ## 5. Wait for Pull Request to merge
 
 
 ## 6. Celebrate - you've done your first pull request!!
+
+
+
+
+
+
+
+
+
 
 
 
