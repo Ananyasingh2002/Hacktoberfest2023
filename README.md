@@ -13,7 +13,7 @@
 
 
 
-# Task 1
+# Task 1.0
 
 ## INSTRUCTIONS - Get Ready for the Adventure 🧭
 
