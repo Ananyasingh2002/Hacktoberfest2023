@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+*{
+  margin: 0px;
+  padding: 0;
+}
+
+#logo {
+    width: 20vw; 
+    height: 10vh; 
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+}
+
+@media screen and (max-width: 1200px){
+  #logo{
+    width:20vh;
+  }
+}
+
+#hka{
+  width: 60px;
+}
+.same{
+  display: flex;
+  justify-content: space-between;
+}
+
+.github {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 9999;
+
+}
+
+.github a {
+  text-decoration: none;
+  color: #000; 
+ 
+}
+
+.card {
+  /* Your existing card styles */
+
+  /* Use flexbox to center-align the content vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-links {
+  /* Optional: If you want to center the links within this container */
+  display: flex;
+  gap: 10px; /* Adjust the spacing between the links */
+  align-items: center;
+}
+
+
+.viewport{
+  position:relative;
+  background: linear-gradient(90deg, #20e6b3, #8e11f3, #4c20d4);
+  background-size: 500% 500%;
+  height: 100%;
+  width:100%;
+  -webkit-animation:   AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+
+  
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.card p{
+  font-family: lato;
+  margin:0px;
+  color: black;
+  font-weight: 400;
+  font-size:15px;
+  line-height:90%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top:3%;
+  padding-bottom:8%;
+  border-radius:20px;
+  cursor:pointer;
+  transition: ease 1s;
+  -webkit-transition: ease 1s;
+}
+
+.card h3{
+  font-family: lato;
+  margin:0px;
+  color: black;
+  font-weight: 400;
+  font-size:20px;
+  line-height:90%;
+  padding-left: 8%;
+  padding-top:8%;
+  padding-bottom:3%;
+  border-radius:20px;
+  cursor:pointer;
+  transition: ease 1s;
+  -webkit-transition: ease 1s;
+}
+
+h1{
+  font-family: lato;
+  color:white;
+  font-weight: 400;
+  font-size:35px;
+  line-height:90%;
+  padding-bottom:140px;
+  padding-top:150px;
+  position:relative;
+  text-align:center;
+  
+}
+
+.title{
+  width: 50%;
+  margin:auto;
+  padding-left:0px;
+  padding-bottom:0px;
+}
+
+.cards {
+  min-width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 500px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 columns with equal width */
+  justify-items: center; /* Center horizontally within the column */
+  align-items: center; /* Center vertically within the column */
+  overflow: hidden;
+  grid-gap: 70px 10px; /* Optional gap between cards */
+}
+
+@media screen and (max-width: 1200px){
+  .cards{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.card{
+  width:70%;
+  position:relative;
+  background-color:white;
+  margin:1.13%;
+  border-radius:5px;
+  transition: 1s;
+  -webkit-transition:0.5s;
+  cursor:pointer;
+    flex: 1 1 auto;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 1200px){
+  .card{
+  width:30%;
+  margin:1.6%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .card{
+  width:45%;
+  margin:2.5%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .card{
+  width:98%;
+  margin:2%;
+  }
+}
+
+.card_img{
+  width:100%;
+  height:150px;
+  position:reltive;
+  border-radius: 5px 5px 0px 0px;
+  background-size: cover;
+  background-position:center center; 
+  background-color: #20e6b3;
+  transition:1s;
+  -webkit-transition:1s;
+}
+
+.card1{
+   background-image: url(/assests/images/Ananya.jpg);
+}
+
+.line{
+  height:2px;
+  width:84%;
+  margin:auto;
+  background-color: #8e11f3;
+}
+
+.title input{
+  background: transparent;
+  border:1px solid white;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  display:inline;
+  font-family: lato;
+  color: white;
+  font-size:18px;
+  line-height:90%;
+  border-radius:30px;
+  width:150px;
+  float:right;
+  margin-top:30px;
+}
+
+.title textarea:focus, input:focus{
+    outline: none;
+}
+
+/* .plus{
+  width:20px;
+  height:20px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid white;
+  top:10px;
+  right:10px;
+  transition: 1s;
+  -webkit-transition: 1s;
+} */
+/* 
+.plus:hover{
+  transform: scale(1.1) rotate(90deg);
+} */
+
+/* .plus p{
+  padding: 0px !important;
+  display:inline;
+  margin:0px;
+  line-height:50%;
+  left:50%;
+  top:45.3%;
+  transform:translate(-50%,-50%);
+  position:absolute;
+  color: white;
+} */
+
+.zoomed{
+  width:100%;
+}
