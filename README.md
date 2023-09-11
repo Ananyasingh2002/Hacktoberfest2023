@@ -94,6 +94,9 @@ github:USERNAME
 Welcome to our Hacktoberfest 2023 contributing website! We're excited to have you on board. Follow the steps below to contribute and add your name, picture, LinkedIn profile, and GitHub profile to our contributors' list.
 
 
+## Here is the link to the website: https://ananyasingh2002.github.io/Hacktoberfest2023/
+
+
 ## INSTRUCTIONS - Get Ready for the Adventure 🧭
 
 
@@ -103,14 +106,14 @@ Welcome to our Hacktoberfest 2023 contributing website! We're excited to have yo
 - Clone your forked repository to your local machine. Replace `<your-username>` with your GitHub username:
 
    ```bash
-   git clone https://github.com/<your-username>/hacktoberfest-2023-contributors.git
+   git clone https://github.com/Ananyasingh2002/Hacktoberfest2023.git
    ```
 
-- Navigate to the project directory: `cd hacktoberfest-2023-contributors`
+- Navigate to the project directory: `cd Hacktoberfest2023`
 
 - Create a new branch for your changes. Replace <branch-name> with a descriptive branch name: `git checkout -b <branch-name>`
 
-- Leave your mark by adding your profile image to `assests/images` (drag and drop or upload with commands or by your name).
+- Leave your mark by adding your profile image to `assets/images` (drag and drop or upload with commands or by your name).
 
 - Chronicle your legend by crafting your profile data in `index.html and CSS(add your image address)` (add your information here)
 
@@ -128,7 +131,7 @@ Welcome to our Hacktoberfest 2023 contributing website! We're excited to have yo
 
 ## 1. Add your profile picture to the folder
 
-Add a picture picture of your choice in `assects/images/<YOUR-USERNAME>.png`. Accepted files are **png** and **jpg**, Ex.
+Add a picture picture of your choice in `assets/images/<YOUR-USERNAME>.png`. Accepted files are **png** and **jpg**, Ex.
 
 ```
 images/<YOUR-USERNAME>.png
@@ -170,9 +173,9 @@ So, essentially, you are instructing the reader to change the class name of the 
 
 ## 4. Now, please navigate to the `style.css` file, read the instructions, and add the class `.card(as your number is)` along with the image path.
 
-  ```url('assests/images/<YOUR-USERNAME>.png')```
-  
-![4](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/9db2ed94-6c73-46b1-a0e1-bd5a3c115592)
+  ```url('assets/images/<YOUR-USERNAME>.png')```
+
+![1](https://github.com/Ananyasingh2002/Hacktoberfest2023/assets/90714878/921595da-28dc-4710-9a25-ffc56987ba57)
 
 
 
@@ -180,6 +183,15 @@ So, essentially, you are instructing the reader to change the class name of the 
 
 
 ## 6. Celebrate - you've done your first pull request!!
+
+
+
+
+
+
+
+
+
 
 
 
