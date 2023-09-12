@@ -221,7 +221,9 @@ h1{
 .card2{
   background-image: url(assets/images/Yash.jpg);
 }
-
+.card3{
+  background-image: url(assets/images/Divya.jpg);
+}
 .line{
   height:2px;
   width:84%;
