@@ -1,5 +1,5 @@
 ---
-name: Digvijay shelar
-institution/company: Bhavans vivekananda college
-github:shelar1423
+Name: Digvijay shelar
+institution/company: Bhavans Vivekananda college
+github: https://github.com/shelar1423
 ---
