@@ -279,9 +279,7 @@ h1{
 .card14{
   background-image: url(assets/images/digvijaysinghh.jpeg)
 }
-.card-16{
-  background-image: url(assets/images/shourya.jpg)
-}
+
 
 
 
@@ -292,6 +290,19 @@ h1{
 }
 
 
+
+
+.card-16{
+  background-image: url(assets/images/shourya.jpg)
+}
+
+.card-17{
+  background-image: url(assets/images/Rupayan-Dirghangi.jpg);
+}
+
+.card18{
+  background-image: url(assets/images/soubhik.jpg)
+}
 
 
 
