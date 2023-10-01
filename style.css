@@ -244,10 +244,8 @@ h1{
   background-image: url(assets/images/sami.jpg);
 }
 
-.card8{
-  background-image: url(assets/images/koppisettivenkatesh.jpg)
-}
-=======
+
+
 .card9{
   background-image: url(assets/images/manisha.jpg);
 }
@@ -256,6 +254,14 @@ h1{
   background-image: url(assets/images/AnirudhBelwadi.jpeg)
 }
 
+
+.card11{
+  background-image: url(assets/images/aviral.jpg)
+}
+
+.card12{
+  background-image: url(assets/images/koppisettivenkatesh.jpg)
+}
 
 .line{
   height:2px;
