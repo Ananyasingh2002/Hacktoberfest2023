@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validation Form</title>
+</head>
+<body>
+    <h2>Validation Form</h2>
+    <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="error-message"></p>
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var errorMessage = document.getElementById("error-message");
+
+            errorMessage.innerHTML = "";
+
+            if (name === "") {
+                errorMessage.innerHTML += "Name is required.<br>";
+            }
+
+            if (email === "") {
+                errorMessage.innerHTML += "Email is required.<br>";
+            } else if (!validateEmail(email)) {
+                errorMessage.innerHTML += "Invalid email address.<br>";
+            }
+
+            if (password === "") {
+                errorMessage.innerHTML += "Password is required.<br>";
+            }
+
+            if (errorMessage.innerHTML !== "") {
+                return false; // Prevent form submission if there are errors
+            }
+
+            return true;
+        }
+
+        function validateEmail(email) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(email);
+        }
+    </script>
+</body>
+</html>
