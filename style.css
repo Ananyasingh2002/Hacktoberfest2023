@@ -45,6 +45,9 @@
 }
 
 .card {
+  border-radius: 10px;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(18, 20, 22, 0.8), -12px 0 15px -4px rgba(8, 16, 26, 0.8);
+
   /* Your existing card styles */
 
   /* Use flexbox to center-align the content vertically and horizontally */
