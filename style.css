@@ -45,6 +45,9 @@
 }
 
 .card {
+  /* border-radius: 10px; */
+  /* box-shadow: 0 9px 0px 0px transparent, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(18, 20, 22, 0.8), -12px 0 15px -4px rgba(8, 16, 26, 0.8); */
+
   /* Your existing card styles */
 
   /* Use flexbox to center-align the content vertically and horizontally */
@@ -53,6 +56,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 .centered-links {
   /* Optional: If you want to center the links within this container */
@@ -205,7 +209,7 @@ h1{
 
 .card_img{
   width:100%;
-  height:150px;
+  height:250px;
   position:reltive;
   border-radius: 5px 5px 0px 0px;
   background-size: cover;
@@ -263,13 +267,38 @@ h1{
   background-image: url(assets/images/koppisettivenkatesh.jpg)
 }
 
+
+
+
 .card13{
   background-image: url(assets/images/Satyajit-2003.jpeg)
 }
 
+
+
 .card14{
-  background-image: url(assets/images/rikin.jpg)
+  background-image: url(assets/images/digvijaysinghh.jpeg)
 }
+.card-16{
+  background-image: url(assets/images/shourya.jpg)
+}
+
+
+
+.card15{
+
+  background-image: url(assets/images/porkalai.jpg)
+
+}
+
+
+
+
+
+
+
+
+
 
 .card15{
   background-image: url(assets/images/Aniketh.jpg);
