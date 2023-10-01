@@ -279,9 +279,7 @@ h1{
 .card14{
   background-image: url(assets/images/digvijaysinghh.jpeg)
 }
-.card-16{
-  background-image: url(assets/images/shourya.jpg)
-}
+
 
 
 
@@ -289,6 +287,11 @@ h1{
 
   background-image: url(assets/images/porkalai.jpg)
 
+}
+
+
+.card-16{
+  background-image: url(assets/images/shourya.jpg)
 }
 
 
