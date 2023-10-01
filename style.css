@@ -147,12 +147,12 @@ h1{
   padding-bottom:0px;
 }
 
-.cards {
+#cards {
   min-width: 80%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 500px;
+  padding-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Create 4 columns with equal width */
   justify-items: center; /* Center horizontally within the column */
@@ -162,7 +162,7 @@ h1{
 }
 
 @media screen and (max-width: 1200px){
-  .cards{
+  #cards{
     grid-template-columns: 1fr;
   }
 }
@@ -209,7 +209,7 @@ h1{
 .card_img{
   width:100%;
   height:150px;
-  position:reltive;
+  position:relative;
   border-radius: 5px 5px 0px 0px;
   background-size: cover;
   background-position:center center; 
@@ -217,81 +217,11 @@ h1{
   transition:1s;
   -webkit-transition:1s;
 }
-/* Here make a new class .card(as your number below) and add the same path of url(assets/images/yourimage.png)*/
-.card1{
-   background-image: url(assets/images/Ananya.jpg);
+.img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
-.card2{
-  background-image: url(assets/images/Yash.jpg);
-}
-.card3{
-  background-image: url(assets/images/Divya.jpg);
-}
-.card4{
-  background-image: url(assets/images/Aditya.jpg)
-}
-
-.card5{
-  background-image: url(assets/images/SyedSumaimaly.jpeg)
-}
-
-.card6{
-  background-image: url(assets/images/Mansi.jpg)
-}
-
-.card7{
-  background-image: url(assets/images/Sreerag.jpg)
-}
-
-.card8{
-  background-image: url(assets/images/sami.jpg);
-}
-
-
-
-.card9{
-  background-image: url(assets/images/manisha.jpg);
-}
- 
-.card10{
-  background-image: url(assets/images/AnirudhBelwadi.jpeg)
-}
-
-
-.card11{
-  background-image: url(assets/images/aviral.jpg)
-}
-
-.card12{
-  background-image: url(assets/images/koppisettivenkatesh.jpg)
-}
-
-.card13{
-  background-image: url(assets/images/Satyajit-2003.jpeg)
-}
-
-
-
-.card14{
-  background-image: url(assets/images/digvijaysinghh.jpeg)
-}
-
-
-.card15{
-
-  background-image: url(assets/images/porkalai.jpg)
-
-}
-
-
-
-
-
-
-
-
-
-
 .line{
   height:2px;
   width:84%;
