@@ -231,17 +231,24 @@ h1{
 .card5{
   background-image: url(assets/images/SyedSumaimaly.jpeg)
 }
-.card7{
-  background-image: url(assets/images/Sreerag.jpg)
-}
 
 .card6{
   background-image: url(assets/images/Mansi.jpg)
 }
 
-.card8{
-  background-image: url(assets/images//sami.jpg);
+.card7{
+  background-image: url(assets/images/Sreerag.jpg)
 }
+
+
+.card8{
+  background-image: url(assets/images/sami.jpg);
+}
+
+.card9{
+  background-image: url(assets/images/manisha.jpg);
+}
+
 
 
 .line{
