@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel= "stylesheet" href= "index.css" />
+    <link href= "https://fonts.googleapis.com/css?family=Quicksand:400,700" rel= "stylesheet" />
+    <link rel= "icon" href= "https://image.flaticon.com/icons/png/128/3373/3373123.png" sizes="16x16" />
+</head>
+
+<body>
+    <h3><b>B</b>ody <b>M</b>ass <b>I</b>ndex <b>C</b>alculator <b>F</b>or <b>A</b>dults</h3>
+    <h4>This BMI Calculator is designed for adults who are willing to check their BMI and how healthy they are.This will calculate whether your weight is healthy for your age, gender and height. Please input all of the details below in order to find out your BMI and whether your weight is <b>Underweight, Healthy, Overweight, Obese or Extremely Obese</b></h4>
+    
+    
+    <form class="form" id="form" onsubmit="validateForm()" >
+        <div class="newForm">
+            <div class="newFormItem">
+                <label for="age"></label><input type="number" class="text-input" id="age" autocomplete="off" required>
+                <p class="">Age</p>
+            </div>
+            <div class="newFormItem">
+                <label class="container">
+                    <input type="radio" name="radio" id="female">
+                    <p class="">Female</p>
+                    <span class="checkmark"></span>
+                </label>
+                <br />
+                <label class="container">
+                    <input type="radio" name="radio" id="male">
+                    <p class="">Male</p>
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="newFormItem">
+                <label for="height"></label><input type="number" class="text-input" id="height" autocomplete="off" required>
+                <p class="">Height (cm)</p>
+            </div>
+            <div class="newFormItem">
+                <label for="weight"></label><input type="number" class="text-input" id="weight" autocomplete="off" required>
+                <p class="">Weight (kg)</p>
+            </div>
+        </div>
+        <button class="center marginBot" type="button" id="submit">Submit</button>
+        <button class="center marginBot" type="reset"  id="clear">Clear</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="index.js">
+        
+    </script>
+</body> 
+</html>

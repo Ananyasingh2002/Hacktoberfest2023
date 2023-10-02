@@ -1,0 +1,276 @@
+* {
+  font-family:Quicksand, serif;
+  font-size: 22px;
+}
+
+body {
+  background-image: url('https://freerangestock.com/thumbnail/136489/heartbeat--beating-heart.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.form {
+  background: repeating-linear-gradient(50deg, #b44c7b, #c5555b, #f0a5a5);
+  height: auto;
+  width: 550px;
+  border-radius: 20px;
+  margin: auto auto auto auto;
+  display: block;
+  border: solid 1px black;
+  box-shadow: 2px 2px 20px 0 #ddd;
+}
+
+.form:hover {
+  box-shadow: 0 0 60px 0 #ccc;
+  transition: 0.5s;
+  transform: scale(1.02);
+}
+
+.row-one {
+  padding: 4px;
+}
+
+.row-two {
+  padding: 4px;
+}
+
+.text-input {
+  width: 45px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #dbeffe;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.text-input:last-child {
+  margin-bottom: 35px;
+}
+
+.text-input:hover {
+  background-color: #cbe7fd;
+}
+
+#submit {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 140px;
+  background-color: brown;
+  color: #fff;
+  margin: auto;
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: black;
+}
+
+#submit:active{
+  background-color: #000;
+  box-shadow: gray;
+  transform: translateY(4px);
+}
+
+#clear {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 140px;
+  background-color: brown;
+  color: #fff;
+  margin: auto;
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+
+#Clear:hover{
+  background-color: #000;
+}
+
+#Clear:active{
+  background-color: #000;
+  box-shadow: gray;
+  transform: translateY(4px);
+}
+
+.text {
+  display: inline-block;
+  margin: 5px 20px 5px 8px;
+}
+
+.row-one {
+  padding: 30px 20px 15px 20px;
+}
+
+.row-two {
+  padding: 15px 20px 30px 20px;
+}
+
+.container {
+  display: inline-block !important;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #dbeffe;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #cbe7fd;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #f4035b;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: peachpuff;
+  padding-top: 15px;
+  display: block;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+h3 b {
+  font-size: 32px;
+  font-weight: 300;
+  color: peachpuff;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+h4 b {
+  font-size: 27px;
+  font-weight: 300;
+  text-align: center;
+  color: peachpuff;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 592px) {
+  h3 {
+      font-size: 18px;
+  }
+
+  h3 b {
+      font-size: 20px;
+  }
+
+  h4 {
+      font-size: 14px;
+  }
+
+  h4 b {
+      font-size: 16px;
+  }
+
+  .form {
+      width: 80%;
+      height: auto;
+      text-align:center;
+  }
+}
+
+.newForm {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
+.newFormItem {
+  padding: 10px;
+  
+}
+
+.newFormItem > * {
+  display: inline;    
+}
+
+  .newFormItem > label {
+      margin-bottom: 5px;
+      margin-top: 5px;
+  }
+  .newFormItem > * > * {
+      display: inline;
+      
+  }
+
+.center{
+  text-align:center;
+}
+
+.marginBot{
+  margin-bottom:20px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
