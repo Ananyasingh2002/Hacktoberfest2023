@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {color:black;}
+
+body {
+    background:#222;
+}
+
+.hmm{
+        margin: 0 auto;
+
+        }  
+.calc {
+        padding: 20px;
+        background:#222;
+        width: 300px;
+        border-radius: 20px;  
+
+        margin: 10px auto;
+        margin-top:10vmin;
+        box-shadow:0 0 2vmin 2vmin #333;
+        }
+#box {
+        width:100%; 
+        height: 60px; 
+        border:1px solid #000; 
+        background: white; 
+        font-size: 40px; 
+        text-align: right;
+        color: black;
+        margin: 0 auto;
+
+        } 
+.btn-bck {
+        margin: 10px 5px;
+        background:transparent ;
+}
+
+.btn {
+        height: 60px;
+        width: 60px;
+        padding: 1px; 
+        background:transparent; 
+        border:2px solid yellow;
+        margin: 4.5px; 
+        font-size: 15px;    
+        border-radius:10px;
+        color:#fff;
+        outline:none;
+        font-size:20px;
+}
+
+.btn:hover {
+    background-color: yellow;
+}
+
+.ansbtn {
+        width:132px;
+
+
+}
+.ansbtn:hover {background-color:pink;}
+
+
+
+
+.cbtn {
+        background:purple; 
+}
+
+</style>
+</head>
+<body>
+
+<div class="hmm">
+    <div class="calc">
+
+        <input id="box" value="" type="text" readonly placeholder="0"><br/>
+
+        <div class="btn-bck">
+        <div class="row">
+                <button class="btn" onclick="shownum('1')"><strong>1</strong></button>
+                <button class="btn" onclick="shownum('2')"><strong>2</strong></button>
+                <button class="btn" onclick="shownum('3')"><strong>3</strong></button>
+                <button class="btn cbtn" onclick="delback()"><strong>C</strong></button>
+        </div>
+        <div class="row">
+                <button class="btn" onclick="shownum('4')"><strong>4</strong></button>
+                <button class="btn" onclick="shownum('5')"><strong>5</strong></button>
+                <button class="btn" onclick="shownum('6')"><strong>6</strong></button>
+                <button class="btn" onclick="shownum('+')"><strong>+</strong></button>
+        </div>
+        <div class="row">
+                <button class="btn" onclick="shownum('7')"><strong>7</strong></button>
+                <button class="btn" onclick="shownum('8')"><strong>8</strong></button>
+                <button class="btn" onclick="shownum('9')"><strong>9</strong></button>
+                <button class="btn" onclick="shownum('-')"><strong>-</strong></button>
+        </div>
+        <div class="row">
+                <button class="btn" onclick="shownum('.')"><strong>.</strong></button>
+                <button class="btn" onclick="shownum('0')"><strong>0</strong></button>
+                <button class="btn" onclick="shownum('00')"><strong>00</strong></button>
+                <button class="btn" onclick="shownum('*')"><strong>*</strong></button>
+
+        </div>
+        <div class="row">
+                <button class="btn cbtn" onclick="clearme()"><strong>AC</strong></button>
+                <button class="btn ansbtn" onclick="solve()"><strong>=</strong></button>
+                <button class="btn" onclick="shownum('/')"><strong>/</strong></button>
+        </div>    
+
+        </div>
+
+
+    </div>
+</div>
+
+
+</body>
+<script>
+    function screen(val)
+        {
+        document.getElementById("box").value=val;
+        }
+function shownum(val)   {
+        document.getElementById("box").value+=val;
+        }
+
+function solve() { 
+    try     { 
+            screen(eval(document.getElementById("box").value)) 
+            } 
+    catch(e) {
+            screen('err') 
+            } 
+                 }
+function clearme() {
+                document.getElementById("box").value = "";
+                } 
+function delback() {
+                var valueNeeded = document.getElementById("box").value;
+                var finalValueNeeded = valueNeeded.substr(0, valueNeeded.length-1); 
+                document.getElementById("box").value=finalValueNeeded;
+
+                } 
+</script>
+          </html>
