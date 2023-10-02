@@ -312,7 +312,7 @@ h1{
   background-image: url(assets/images/ankit.jpg)
 }
 
-.card21{
+.cardAjay84sia{
   background-image: url(assets/images/Ajay84sia.png)
 }
 
@@ -321,7 +321,7 @@ h1{
 .line{
   height:2px;
   width:84%;
-  margin:auto;
+  margin: auto;
   background-color: #8e11f3;
 }
 
@@ -331,18 +331,18 @@ h1{
   padding-top:10px;
   padding-bottom:10px;
   padding-left:20px;
-  display:inline;
+  display: inline;
   font-family: lato;
   color: white;
   font-size:18px;
   line-height:90%;
   border-radius:30px;
   width:150px;
-  float:right;
+  float: right;
   margin-top:30px;
 }
 
-.title textarea:focus, input:focus{
+.title textarea: focus, input: focus{
     outline: none;
 }
 
