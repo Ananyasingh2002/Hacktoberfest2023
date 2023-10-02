@@ -290,6 +290,8 @@ h1{
 }
 
 
+
+
 .card-16{
   background-image: url(assets/images/shourya.jpg)
 }
@@ -298,16 +300,24 @@ h1{
   background-image: url(assets/images/Rupayan-Dirghangi.jpg);
 }
 
+<<<<<<< HEAD
 .card-18{
   background-image: url(assets/images/Soumyadeb-Basu.png);
 }
 
+=======
+.card18{
+  background-image: url(assets/images/soubhik.jpg)
+}
+>>>>>>> 32c5cfd3aea8bcf5542697843b4a8d58fb325a12
 
+.card19{
+  background-image: url(assets/images/shubhankar-ranjan.jpg)
+}
 
-
-
-
-
+.card20{
+  background-image: url(assets/images/ankit.jpg)
+}
 
 
 
