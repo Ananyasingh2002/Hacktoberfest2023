@@ -1,0 +1,11 @@
+def kadanes_algorithm(l):
+    max_sum = current_max = 0
+
+    for num in l:
+        current_max = max(num, current_max+num)
+        if current_max > max_sum:
+            max_sum = current_max
+
+    print(max_sum)
+
+kadanes_algorithm([4, -5, 5, 7, 9, 85, 92, 45])

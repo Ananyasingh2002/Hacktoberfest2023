@@ -45,6 +45,9 @@
 }
 
 .card {
+  /* border-radius: 10px; */
+  /* box-shadow: 0 9px 0px 0px transparent, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(18, 20, 22, 0.8), -12px 0 15px -4px rgba(8, 16, 26, 0.8); */
+
   /* Your existing card styles */
 
   /* Use flexbox to center-align the content vertically and horizontally */
@@ -53,6 +56,7 @@
   justify-content: center;
   align-items: center;
 }
+
 
 .centered-links {
   /* Optional: If you want to center the links within this container */
@@ -205,7 +209,7 @@ h1{
 
 .card_img{
   width:100%;
-  height:150px;
+  height:250px;
   position:reltive;
   border-radius: 5px 5px 0px 0px;
   background-size: cover;
@@ -231,16 +235,89 @@ h1{
 .card5{
   background-image: url(assets/images/SyedSumaimaly.jpeg)
 }
-.card7{
-  background-image: url(assets/images/Sreerag.jpg)
-}
 
 .card6{
   background-image: url(assets/images/Mansi.jpg)
 }
 
+.card7{
+  background-image: url(assets/images/Sreerag.jpg)
+}
+
 .card8{
-  background-image: url(assets/images//sami.jpg);
+  background-image: url(assets/images/sami.jpg);
+}
+
+
+
+.card9{
+  background-image: url(assets/images/manisha.jpg);
+}
+ 
+.card10{
+  background-image: url(assets/images/AnirudhBelwadi.jpeg)
+}
+
+
+.card11{
+  background-image: url(assets/images/aviral.jpg)
+}
+
+.card12{
+  background-image: url(assets/images/koppisettivenkatesh.jpg)
+}
+
+
+
+
+.card13{
+  background-image: url(assets/images/Satyajit-2003.jpeg)
+}
+
+
+
+.card14{
+  background-image: url(assets/images/digvijaysinghh.jpeg)
+}
+
+
+
+
+.card15{
+
+  background-image: url(assets/images/porkalai.jpg)
+
+}
+
+
+
+
+.card-16{
+  background-image: url(assets/images/shourya.jpg)
+}
+
+.card-17{
+  background-image: url(assets/images/Rupayan-Dirghangi.jpg);
+}
+
+.card18{
+  background-image: url(assets/images/soubhik.jpg)
+}
+
+.card19{
+  background-image: url(assets/images/shubhankar-ranjan.jpg)
+}
+
+.card20{
+  background-image: url(assets/images/ankit.jpg)
+}
+.card21{
+  background-image: url(assets/images/Lsam18.png);
+}
+
+
+.card22{
+  background-image: url(assets/images/Atharva.jpg);
 }
 
 
