@@ -1,5 +1,5 @@
 ---
-name: YOURNAME
-institution/company: INSTITUTION_NAME
-github:USERNAME
+name: Akansh Bende
+institution/company: Government College Of Engineering Aurangabad
+github:akanshbende
 ---
