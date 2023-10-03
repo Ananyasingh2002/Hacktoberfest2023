@@ -1,0 +1,74 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.*;
+
+public class MaxCreativeAvatarGenerator extends JPanel {
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        Graphics2D g2d = (Graphics2D) g;
+
+        // Set background color
+        g2d.setBackground(Color.WHITE);
+        g2d.clearRect(0, 0, getWidth(), getHeight());
+
+        // Draw a face
+        Ellipse2D.Double face = new Ellipse2D.Double(50, 50, 200, 200);
+        g2d.setColor(new Color(255, 220, 185)); // Skin color
+        g2d.fill(face);
+
+        // Draw eyes
+        Ellipse2D.Double leftEye = new Ellipse2D.Double(90, 100, 40, 40);
+        Ellipse2D.Double rightEye = new Ellipse2D.Double(170, 100, 40, 40);
+        g2d.setColor(Color.BLACK);
+        g2d.fill(leftEye);
+        g2d.fill(rightEye);
+
+        // Draw a smiling mouth
+        Arc2D.Double mouth = new Arc2D.Double(120, 160, 80, 40, 0, 180, Arc2D.OPEN);
+        g2d.setColor(Color.RED);
+        g2d.draw(mouth);
+
+        // Draw hair
+        Polygon hair = new Polygon();
+        hair.addPoint(50, 50);
+        hair.addPoint(250, 50);
+        hair.addPoint(150, 10);
+        g2d.setColor(new Color(139, 69, 19)); // Brown hair
+        g2d.fill(hair);
+
+        // Draw a stylish hat
+        Polygon hat = new Polygon();
+        hat.addPoint(80, 30);
+        hat.addPoint(120, 10);
+        hat.addPoint(180, 10);
+        hat.addPoint(220, 30);
+        g2d.setColor(new Color(0, 0, 128)); // Dark Blue hat
+        g2d.fill(hat);
+
+        // Draw a nose
+        Ellipse2D.Double nose = new Ellipse2D.Double(150, 140, 20, 20);
+        g2d.setColor(new Color(255, 220, 185)); // Skin color
+        g2d.fill(nose);
+
+        // Draw lips
+        g2d.setColor(Color.RED);
+        g2d.draw(new Arc2D.Double(160, 160, 40, 15, 0, 180, Arc2D.OPEN));
+
+        // Draw earrings
+        Ellipse2D.Double leftEarring = new Ellipse2D.Double(95, 130, 10, 20);
+        Ellipse2D.Double rightEarring = new Ellipse2D.Double(205, 130, 10, 20);
+        g2d.setColor(Color.YELLOW); // Yellow earrings
+        g2d.fill(leftEarring);
+        g2d.fill(rightEarring);
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Max's Creative Avatar");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(300, 300);
+        frame.add(new MaxCreativeAvatarGenerator());
+        frame.setVisible(true);
+    }
+}
