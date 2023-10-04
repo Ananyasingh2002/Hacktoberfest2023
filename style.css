@@ -223,7 +223,7 @@ h1{
    background-image: url(assets/images/Ananya.jpg);
 }
 .card2{
-  background-image: url(assets/images/Yash.jpg);
+  background-image: url(assets/images/yash.jpg);
 }
 .card3{
   background-image: url(assets/images/Divya.jpg);
@@ -318,6 +318,10 @@ h1{
 
 .card22{
   background-image: url(assets/images/Atharva.jpg);
+}
+
+.card23{
+  background-image: url(assets/images/Abhinavprajapati.jpg);
 }
 
 
