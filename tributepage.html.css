@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="styles.css">
+    <main id="main">
+      <header>
+   <section id="title"> <h1>Homi Jehangir Bhabha</h1>
+<h2 id="tribute-info">Father of Indian Nuclear Programme</h2>
+<figure id="img-div">
+<img id="image" src="https://en.wikipedia.org/wiki/File:Homi_Jehangir_Bhabha_1960s.jpg"alt="Homi Bhabha in 1960s.">
+<figcaption id="img-caption" class="img-caption"><em>
+ He was the founding director and professor of Physics at the Tata Institute of Fundamental Research as well as of the Atomic Energy Establishment.</em></figcaption></img>
+  </figure>
+  </section>
+  </header>
+
+    <div>
+        <h2>Here's a time line of Homi Bhabha life:</h2>
+       <hr>
+        <u1>
+          <li><strong>30 October 1909</strong>- Born in Bombay Presidency, British India</li>
+<li><strong>1924</strong>- Passed his Senior Cambridge Examination with honours."</li>
+<li><strong>1928</strong>- Joined Gonville and Caius College of Cambridge University."</li>
+<li><strong>1930</strong> - Entered the world of Physics..</li>
+<li><strong>1933</strong>- He was selected for the Isaac Newton Scholarship.</li>
+<li><strong>1935</strong>- Received a PhD for his thesis on "Cosmic radiation and the creation and annihilation of Positrons and Electrons".</li>
+<li><strong>June 1945</strong>- Tata Institue of Fundamental Research was established and he was the founding director and professor of Physics.</li>
+<li><strong>1948</strong> - Became the first chairman of the Atomic Energy Commission later renamed as Bhabha Atomic Research Centre.</li>
+<li><strong>1954</strong> -He was awarded Padma Bhushan for his contribution in the field of Nuclear Physics and Sciences. </li>
+<li><strong>1955</strong> - Served as the president of United Nations Conference on Peaceful Uses of Atomic Energy</li>
+<li><strong>1960-1963</strong> - Served as president of the International Union of pUre and Applied Physics."</li>
+<li><strong>24 January 1966</strong>- dies at the age of 56 due to Air India Flight 101 crash.</li>
+</u1>
+</hr>
+<hr>
+<article id="tribute" class="text-content">
+  <p><em>"To be truly cosmopolitan is to embrace the stranger."</em></p>
+  <p>--Homi J Bhabha</p>
+  </article>
+  </hr>
+  </div>
+
+
+  <footer>
+    <div id="footer-content">
+   <h3> If you have time, you should read more about this incredible human being on his<a id="tribute-link" href="https://en.wikipedia.org/wiki/Homi_J._Bhabha" target="_blank">Wikipedia entry</a></h3>
+   </div>
+   </footer>
+   </body> 
+   </HTML>
+   </main>
+
+#main{
+  margin: 10px;
+  background-color: #D3D3D3;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+    background-color: #808080;
+    border-radius: 10px;
+}
+
+h1{
+  margin-top:10px;
+}
+
+#title{
+  text-align: center;
+  padding: 10px;
+}
+main{
+  background-color: #D3D3D3;
+}
+
+#main-content{
+  max-width: 600px;
+  margin: auto;
+   }
+
+   footer{
+     padding-top:20px;
+     padding-bottom:20px;
+     text-align: center;
+     background-color:#808080;
+     border-radius: 10px;
+   }
+
+   #footer-content{
+     margin:auto;
+     max-width: 800px;
+     text-align: center;
+   }
+
+   #text-content{
+     text-align: justify;
+   }
+   li{
+     margin-top:10px;
+   }
+
+   #image{
+     height: auto;
+     max-width:100%;
+     display: block ;
+     margin:auto;
+   }
+
+   #image-label{
+     text-align:center;
+     font-size: 15px;
+   }
+
+   #tribute-link{
+     color:hsl(220, 57%, 42%)
+   }
