@@ -315,11 +315,13 @@ h1{
   background-image: url(assets/images/Lsam18.png);
 }
 
-
 .card22{
   background-image: url(assets/images/Atharva.jpg);
 }
 
+.card23{
+  background-image: url('./Images/Jobspresso.png');
+}
 
 .line{
   height:2px;
