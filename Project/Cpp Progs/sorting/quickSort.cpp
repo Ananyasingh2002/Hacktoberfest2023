@@ -32,7 +32,7 @@ int partition(int array[], int low, int high) {
 }
 
 void quickSort(int array[], int low, int high) {
-  if (low < high) {
+  if (low <=high) {
     int pi = partition(array, low, high);
 
     quickSort(array, low, pi - 1);
