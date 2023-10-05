@@ -307,13 +307,22 @@ h1{
 .card19{
   background-image: url(assets/images/shubhankar-ranjan.jpg)
 }
+
 .card20{
-  background-image: url(assets/images/subhro1530.jpg)
+  background-image: url(assets/images/ankit.jpg)
+}
+.card21{
+  background-image: url(assets/images/Lsam18.png);
 }
 
 
+.card22{
+  background-image: url(assets/images/Atharva.jpg);
+}
 
-
+.card23{
+  background-image: url(assets/images/subhro1530.jpg)
+}
 
 .line{
   height:2px;
