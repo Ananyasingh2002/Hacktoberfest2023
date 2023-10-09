@@ -24,10 +24,8 @@ function dark() {
     let button = document.getElementById("btn-mode");
     if (button.innerHTML === "Light mode") {
         button.innerHTML = "Dark mode";
-        // Perform additional actions for switching to light mode
     } else {
         button.innerHTML = "Light mode";
-        // Perform additional actions for switching to dark mode
     }
 }
 
@@ -36,10 +34,10 @@ document.addEventListener('keydown', function (event) {
 
     if (/[0-9]/.test(keyPressed)) {
         string += keyPressed;
-        input.value = string; // Update the input field
+        input.value = string; 
     } else if (/[\+\-\*\/]/.test(keyPressed)) {
         string += keyPressed;
-        input.value = string; // Update the input field
+        input.value = string; 
     } else if (keyPressed === 'Enter') {
         evaluate();
     } else if (keyPressed === 'Backspace') {
@@ -49,12 +47,12 @@ document.addEventListener('keydown', function (event) {
 
 function evaluate() {
     if (string) {
-        string = eval(string).toString(); // Evaluate and convert to string
-        input.value = string; // Update the input field
+        string = eval(string).toString(); 
+        input.value = string; 
     }
 }
 
 function deleteLastCharacter() {
-    string = string.slice(0, -1); // Remove the last character
-    input.value = string; // Update the input field
+    string = string.slice(0, -1); 
+    input.value = string;
   }
