@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.circle{
+position: relative;
+width: 300px;
+height: 300px;
+border: 2px solid black;
+border-radius: 50%;
+margin: auto auto;
+
+
+}
+.hand{
+    position: absolute;
+   
+    left: calc(50% - 5px);
+    border-radius: 50%;
+    width: 5px;
+    transform-origin: bottom center ;
+}
+
+
+
+
+
+
+ .second-arm{
+   height: 50%; 
+   background-color: red;
+  
+  
+  
+  
+   
+  
+}
+ .minute-arm{
+   
+   height: 50%;
+  
+   background-color:black;  
+
+    
+   
+   
+ } 
+  .hour-arm{
+  
+    height: 35%;
+    background-color: black;
+    top:15%;
+   
+    
+}    
+ .vertex{
+    width: 10px;
+    height: 10px;
+  
+    background-color: black;
+    border-radius: 70%;
+    position: absolute;
+    left: calc(50% - 7px);
+     top: calc(50% - 7px);
+   
+}
+.nummeral{
+    position: absolute;
+    font-size: 18px;
+}  
+.twelve{
+    left: 46%;
+}
+.six{
+    left: 48%;
+    top:93%;
+}
+.three{
+    left: 96%;
+    top: 47%;
+}
+.nine{
+    top:47%;
+}
+.one{
+left: 71%;
+top: 5%;
+}
+.two{
+    left: 90%;
+    top: 22%;
+}
+.four{
+   left: 90%;
+   top:70% ; 
+}
+.five{
+    left:72%;
+    top:88% ;
+}
+.seven{
+    left: 25%;
+    top:87%;
+}
+.eight{
+    top: 70%;
+    left: 7%;
+}
+.ten{
+  top: 23%;
+  left: 6%;
+
+}
+.eleven{
+top: 6%;
+left: 22%;
+}
