@@ -1,0 +1,51 @@
+#container{
+   width: fit-content;
+    margin:auto;
+    background-color: rgb(190, 105, 152);
+    border: 2px solid rgb(190, 105, 152);
+
+}
+.box{
+    width: fit-content;
+    
+     margin:5px auto 3px auto; 
+    background-color: antiquewhite;
+    border: 2px solid  antiquewhite;
+}
+
+
+   
+
+button{
+    border-radius: 10px;
+   
+    width: 70px;
+    height: 70px;
+    /* margin:10px auto auto 10px  */
+    font-size: larger;
+    font-weight: bolder;
+   box-shadow: 2px 2px 5px 1px gray;
+}
+#para{
+    margin-left: 10px;
+}
+input{
+           
+       width: 95%;
+       height: 100px;
+       font-size: 2rem;
+       padding-inline: 8px;
+    
+
+}
+button:hover{
+    color: rgb(190, 105, 152);
+    cursor:pointer ;
+}
+input:hover{
+    border-color: rgb(190, 105, 152) ;
+    outline: 0;
+}
+button:active{
+    cursor: grabbing;
+}

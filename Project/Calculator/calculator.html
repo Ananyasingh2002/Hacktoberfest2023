@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specific Calculator</title>
+    <link rel="stylesheet" href="calculatorStyle.css">
+</head>
+<body>
+
+<div id="container">
+<div>
+ <input type="text" name="result" id="result">
+</div>
+ <div id="brick" class="box">
+    <table>
+<tr>
+    <td><button class="click" onclick="writeNumber('1')">1 </button></td>
+    <td><button class="click"  onclick="writeNumber('2')">2</button></td>
+    <td><button class="click"  onclick="writeNumber('3')">3</button></td>
+    <td> <button class="click"  onclick="clearScreen()">C</button></td>
+    <td> <button class="click"  onclick="del()">del</button></td>
+</tr>
+<tr>
+    <td><button class="click"   onclick="writeNumber('4')">4</button></td>
+    <td><button class="click"  onclick="writeNumber('5')">5</button></td>
+    <td><button class="click"  onclick="writeNumber('6')">6</button></td>
+    <td> <button class="click" onclick="calculate()">=</button></td>
+    <td> <button class="click"  onclick="writeNumber()">/</button></td>
+</tr>
+<tr>
+    <td><button class="click"   onclick="writeNumber('7')">7</button></td>
+    <td><button class="click"  onclick="writeNumber('8')">8</button></td>
+    <td><button class="click"  onclick="writeNumber('9')">9</button></td>
+    <td> <button class="click"  onclick="writeNumber('.')">.</button></td>
+</tr>
+<tr>
+    <td><button class="click"   onclick="writeNumber('0')">0</button></td>
+    <td><button class="click"  onclick="writeNumber('+')">+</button></td>
+    <td><button class="click"  onclick="writeNumber('-')">-</button></td>
+    <td> <button class="click"  onclick="writeNumber('*')">*</button></td>
+</tr>
+
+
+    </table>
+      
+ </div> 
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+    <script src="calculatorjavascript.js"></script>
+</body>
+</html>
