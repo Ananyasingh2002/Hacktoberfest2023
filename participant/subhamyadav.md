@@ -1,5 +1,5 @@
 ---
 name: subham yadav
-institution/company: Faculty of Engineering and technology University of Lucknow
+institution/company: University of Lucknow Faculty of engineering and technology
 github: https://github.com/Subham7061
 ---
