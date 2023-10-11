@@ -1,5 +1,5 @@
 ---
 name: Xiaoren Chung
 institution/company: Newport Highschool
-github:smoll-xiao
+github:https://github.com/smoll-xiao
 ---
