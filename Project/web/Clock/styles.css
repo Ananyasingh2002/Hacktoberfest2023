@@ -1,0 +1,256 @@
+/* --------------------- GOOGLE FONTS ----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* --------------------- VARIABLES ----------------------- */
+:root{
+     --hue-color: 204; 
+    
+    /* --------------------- COLORS ----------------------- */
+    --first-color: hsl(var(--hue-color), 69%, 60%);
+    --title-color: hsl(var(--hue-color), 9%, 15%);
+    --text-color: hsl(var(--hue-color), 9%, 45%);
+    --text-color-light: hsl(var(--hue-color), 9%, 66%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --white-color: #fff;
+
+    /* --------------------- BODY FONT ----------------------- */
+    --body-font: 'Roboto', sans-serif;
+    ;
+    
+    /* --------------------- FONT SIZE ----------------------- */
+    --biggest-font-size: 3rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+    
+    /* --------------------- FONT WEIGHT ----------------------- */
+    --font-medium: 500;
+
+    /* --------------------- MARGINS ----------------------- */
+    --mb-0-25: .25rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2-5: 2.5rem;
+
+    /* --------------------- Z-INDEXES ----------------------- */
+    --z-tooltip: 10;
+    --z-normal: 1;
+}
+
+/* --------------------- FOR LARGE DEVICES ----------------------- */
+@media screen and (min-width: 968px) {
+    :root {
+        --big-font-size: 3.5rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+        --tiny-font-size: .75rem;
+    }
+}
+
+/* ------------------- DARK THEME ------------------------ */
+body.dark-theme{
+    --title-color: hsl(var(--hue-color), 12%, 96%);
+    --text-color: hsl(var(--hue-color), 12%, 75%);
+    --body-color: hsl(var(--hue-color), 12%, 15%);
+}
+
+/* ------------------- BUTTON ------------------------ */
+.theme{
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    display: flex;
+    padding: .25rem;
+    border-radius: 50%;
+    box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 0%, 100%, 1),
+                inset 1px 1px 1px hsla(var(--hue-color),30%,87%, 1);
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+/* ------------------- DARK-BOX ------------------------ */
+.dark-theme .clock_circle{
+    box-shadow: 6px 6px 16px hsla(var(--hue-color), 8%, 12%, 1),
+                -6px -6px 16px hsla(var(--hue-color), 8%, 21%, 1),
+                inset -6px -6px 16px hsla(var(--hue-color), 8%, 21%, 1),
+                inset 6px 6px 12px hsla(var(--hue-color), 8%, 12%, 1);
+}
+
+.dark-theme .theme{
+    box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 8%, 21%, 1),
+                inset 1px 1px 1px hsla(var(--hue-color), 8%, 12%, 1);
+}
+
+/* ------------------- BASE FORMAT ------------------------ */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: var(--body-font);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ------------------- COMMON CLASSES ------------------------ */
+.container{
+    max-width: 968px;
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+}
+.grid{
+    display: grid;
+}
+
+/* ------------------- CLOCK CLASSES ------------------------ */
+.clock_container{
+    height: 100vh;
+    grid-template-rows: 1fr max-content;
+}
+.clock_circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    box-shadow: -6px -6px 16px var(--white-color),
+                6px 6px 16px hsla(var(--hue-color),30%,87%, 1),
+                inset 6px 6px 16px hsla(var(--hue-color),30%,87%, 1),
+                inset -6px -6px 16px var(--white-color);
+    border-radius: 50%;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock_content{
+    align-self: center;
+    row-gap: 3.5rem;
+}
+.clock_twelve,
+.clock_three,
+.clock_six,
+.clock_nine{
+    position: absolute;
+    width: 1rem;
+    height: 1px;
+    background-color: var(--text-color-light);
+}
+.clock_twelve, .clock_six{
+    transform: translateX(-50%) rotate(90deg);
+}
+.clock_twelve{
+    top: 1.25rem;
+    left: 50%;
+}
+.clock_three{
+    top: 50%;
+    right: 0.75rem;
+}
+.clock_six{
+    bottom: 1.25rem;
+    left: 50%;
+}
+.clock_nine{
+    left: 0.75rem;
+    top: 50%;
+}
+.clock_rounder{
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    border: 2px solid var(--body-color);
+    z-index: var(--z-tooltip);
+}
+.clock_hour, .clock_min, .clock_sec{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.clock_hour{
+    height: 105px;
+    width: 105px;
+}
+.clock_hour::before{
+    content: '';
+    position: absolute;
+    background-color: var(--text-color);
+    width: 0.25rem;
+    height: 3rem;
+    border-radius: .75rem;
+    z-index: var(--z-normal);
+}
+.clock_min{
+    width: 136px;
+    height: 136px;
+}
+.clock_min::before{
+    content: '';
+    position: absolute;
+    background-color: var(--text-color);
+    width: 0.25rem;
+    height: 4rem;
+    border-radius: .75rem;
+    z-index: var(--z-normal);
+}
+.clock_sec{
+    width: 130px;
+    height: 130px;
+}
+.clock_sec::before{
+    content: '';
+    position: relative;
+    background-color: var(--first-color);
+    width: 0.125rem;
+    height: 5rem;
+    border-radius: .75rem;
+    z-index: var(--z-normal);
+}
+.clock_logo{
+    width: max-content;
+    justify-self: center;
+    margin-bottom: var(--mb-2-5);
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color-light);
+    transition: .3s;
+}
+.clock_logo:hover{
+    color: var(--first-color);
+}
+.clock_text{
+    display: flex;
+    justify-content: center;
+}
+.clock_text-hr, .clock_text-min, .clock_text-sec{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+}
+.clock_text-m{
+    font-size: var(--tiny-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-left: var(--mb-0-25);
+}
+.clock_date{
+    text-align: center;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+@media screen and (min-width:968px){
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clock_logo{
+        margin-bottom: 3rem;
+    }
+}

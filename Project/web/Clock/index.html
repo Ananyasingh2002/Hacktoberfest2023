@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        
+        <!------------------------------ BOXICONS ------------------------------->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!---------------------------------CSS----------------------------------->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Analog Clock UI</title>
+    </head>
+    <body>
+        <section class="clock container">
+            <div class="clock_container grid">
+                <div class="clock_content grid">
+                    <div class="clock_circle">
+                        <span class="clock_twelve"></span>
+                        <span class="clock_three"></span>
+                        <span class="clock_six"></span>
+                        <span class="clock_nine"></span>
+                        
+                        <div class="clock_rounder"></div>
+                        <div class="clock_hour" id="clock-hour"></div>
+                        <div class="clock_min" id="clock-min"></div>
+                        <div class="clock_sec" id="clock-sec"></div>
+
+                        <!-- DARK/LIGHT -->
+                        <div class="theme">
+                            <i class='bx bxs-moon' id="theme-btn"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="clock_text">
+                            <div class="clock_text-hr" id="text-hr"></div>
+                            <div class="clock_text-min" id="text-min"></div>
+                            <div class="clock_text-m" id="text-am"></div>
+                        </div>
+                        <div class="clock_date">
+                            <span id="date-day"></span>
+                            <span id="date-month"></span>
+                            <span id="date-year"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" target="blank" class="clock_logo">Clockido</a>
+            </div>
+        </section>
+
+        <!-- SCRIPT -->
+        <script src="main.js"></script>
+    </body>
+</html>
