@@ -95,6 +95,11 @@
     100%{background-position:0% 50%}
 }
 
+svg:hover {
+  transform: scale(1.5); 
+  transition: transform 0.3s ease-in-out; 
+}
+
 .card p{
   font-family: lato;
   margin:0px;
