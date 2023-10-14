@@ -95,6 +95,11 @@
     100%{background-position:0% 50%}
 }
 
+svg:hover {
+  transform: scale(1.5); 
+  transition: transform 0.3s ease-in-out; 
+}
+
 .card p{
   font-family: lato;
   margin:0px;
@@ -322,6 +327,10 @@ h1{
 
 .card23{
   background-image: url(assets/images/nimishhh.jpeg);
+}
+
+.card24{
+  background-image: url(assets/images/arshadpatel.png);
 }
 
 .line{
