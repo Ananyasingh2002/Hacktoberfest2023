@@ -27,6 +27,8 @@
 
 ## [Click to Participate](https://hacktoberfest.com/participation/)
 
+## [Visit this Repo to contribute for Hacktoberfest2023 for new Project](https://github.com/Ananyasingh2002/OTP-Verification)
+
 # Task 1.0
 
 Welcome to our Hacktoberfest 2023 contributing website! We're excited to have you on board. Follow the steps below to contribute and add your name, picture, LinkedIn profile, and GitHub profile to our contributors' list.
