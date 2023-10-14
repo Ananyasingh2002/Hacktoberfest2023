@@ -5,6 +5,7 @@ public:
         int m=nums2.size();
         int low=0;
         int high=n;
+        int akshat;
         if (n > m) {
             return findMedianSortedArrays(nums2, nums1);
         }
