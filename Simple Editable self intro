@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Self Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #470258;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4690da;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Self Introduction</h1>
+    </header>
+    <div class="container">
+        <p id="introText">Hello! I'm Sanjeedha Shriya. I'm passionate about web development and enjoy creating interactive websites. I'm learning new web technologies as of now. 
+        </p>
+        <button onclick="editIntro()">Edit Introduction</button>
+    </div>
+
+    <script>
+        function editIntro() {
+            var introText = document.getElementById("introText");
+            var newIntro = prompt("Edit your introduction:");
+            if (newIntro !== null) {
+                introText.innerHTML = newIntro;
+            }
+        }
+    </script>
+</body>
+</html>
