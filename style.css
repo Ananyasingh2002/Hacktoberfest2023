@@ -352,34 +352,6 @@ h1{
     outline: none;
 }
 
-/* .plus{
-  width:20px;
-  height:20px;
-  background: transparent;
-  border-radius: 50%;
-  position: absolute;
-  border: 2px solid white;
-  top:10px;
-  right:10px;
-  transition: 1s;
-  -webkit-transition: 1s;
-} */
-/* 
-.plus:hover{
-  transform: scale(1.1) rotate(90deg);
-} */
-
-/* .plus p{
-  padding: 0px !important;
-  display:inline;
-  margin:0px;
-  line-height:50%;
-  left:50%;
-  top:45.3%;
-  transform:translate(-50%,-50%);
-  position:absolute;
-  color: white;
-} */
 
 .zoomed{
   width:100%;
