@@ -380,7 +380,54 @@ h1{
   position:absolute;
   color: white;
 } */
-
+*{
+  cursor: none;
+}
 .zoomed{
   width:100%;
+}body.tutorial {
+  --color-text: #fff;
+  --color-bg: #black;
+  --color-link: #ff0000;
+  background-color: smoke;
+}
+.credits{
+  position: absolute;
+  bottom: 20px;
+}
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page__inner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.cursor--small {
+  width: 5px;
+  height: 5px;
+  left: -2.5px;
+  top: -2.5px;
+  border-radius: 50%;
+  z-index: 11000;
+  background: black;
+}
+.cursor--canvas {
+  width: 100vw;
+  height: 100vh;
+  z-index: 12000;
+}
+.page, .page a {
+ cursor: none;
 }
