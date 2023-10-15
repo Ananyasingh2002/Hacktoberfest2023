@@ -233,11 +233,11 @@ h1 {
   -webkit-transition: 1s;
 }
 
-p :hover {
+/* p :hover {
   background: #000;
   border-radius: 50%;
   stroke: white;
-}
+} */
 /* g :hover {
 } */
 
