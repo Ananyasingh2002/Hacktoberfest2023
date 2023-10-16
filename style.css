@@ -40,7 +40,7 @@
 
 .github a {
   text-decoration: none;
-  color: #000; 
+  color: #242222; 
  
 }
 
@@ -98,7 +98,7 @@
 .card p{
   font-family: lato;
   margin:0px;
-  color: black;
+  color: #242222;
   font-weight: 400;
   font-size:15px;
   line-height:90%;
@@ -115,7 +115,7 @@
 .card h3{
   font-family: lato;
   margin:0px;
-  color: black;
+  color:#242222;
   font-weight: 400;
   font-size:20px;
   line-height:90%;
@@ -130,7 +130,7 @@
 
 h1{
   font-family: JetBrains Mono,monospace;
-  color:white;
+  color:rgb(246, 242, 242);
   font-weight: 400;
   font-size:35px;
   line-height:90%;
