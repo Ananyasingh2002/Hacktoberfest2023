@@ -1,5 +1,5 @@
 ---
 Name: Abhijai Rajawat
 Institution/company: Vellore Institute of Technology
-Github: https://github.com/Severus_25
+Github: https://github.com/Severus25
 ---
