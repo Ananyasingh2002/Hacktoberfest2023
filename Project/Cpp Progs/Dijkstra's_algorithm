@@ -1,0 +1,78 @@
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <climits>
+
+using namespace std;
+
+class Graph {
+    int V;
+    vector<vector<pair<int, int>> > adj;
+
+public:
+    Graph(int vertices) {
+        V = vertices;
+        adj.resize(V);
+    }
+
+    void addEdge(int u, int v, int w) {
+        // Add an edge to the adjacency list with its weight.
+        adj[u].push_back({v, w});
+        adj[v].push_back({u, w});
+    }
+
+    void dijkstra(int src) {
+        // Initialize the distance array with infinity and the source vertex with zero distance.
+        vector<int> dist(V, INT_MAX);
+        dist[src] = 0;
+
+        // Use a min-priority queue to keep track of vertices with the shortest distance.
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        pq.push({0, src});
+
+        while (!pq.empty()) {
+            int u = pq.top().second;
+            pq.pop();
+
+            // Explore adjacent vertices and update their distances if a shorter path is found.
+            for (const auto &edge : adj[u]) {
+                int v = edge.first;
+                int w = edge.second;
+
+                if (dist[u] != INT_MAX && dist[u] + w < dist[v]) {
+                    dist[v] = dist[u] + w;
+                    pq.push({dist[v], v});
+                }
+            }
+        }
+
+        // Print the shortest distances from the source vertex to all other vertices.
+        printSolution(dist);
+    }
+
+    void printSolution(const vector<int> &dist) {
+        cout << "Vertex \t Distance from Source" << endl;
+        for (int node = 0; node < V; ++node) {
+            cout << node << "\t" << dist[node] << endl;
+        }
+    }
+};
+
+int main() {
+    // Create a graph and add edges with weights.
+    Graph g(10);
+    g.addEdge(0, 4, 8);
+    g.addEdge(1, 2, 8);
+    g.addEdge(2, 3, 5);
+    g.addEdge(3, 8, 10);
+    g.addEdge(4, 5, 1);
+    g.addEdge(5, 6, 2);
+    g.addEdge(7, 5, 10);
+    g.addEdge(8, 6, 4);
+    g.addEdge(9, 8, 8);
+
+    // Find and print the shortest paths from the source vertex (0).
+    g.dijkstra(0);
+
+    return 0;
+}
