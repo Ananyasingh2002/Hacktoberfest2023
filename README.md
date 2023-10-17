@@ -25,6 +25,8 @@
 
 📢 Sign up for Hacktoberfest 2023, and contribute four pull requests (PRs) between October 1st-31st to claim your stash of cool SWAGS 🔥.
 
+# [Visit this repository to contribute to a new project for Hacktoberfest 2023](https://github.com/Ananyasingh2002/OTP-Verification)
+
 ## [Click to Participate](https://hacktoberfest.com/participation/)
 
 # Task 1.0
