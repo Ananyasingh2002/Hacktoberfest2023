@@ -44,6 +44,14 @@
  
 }
 
+svg:hover
+{
+  color: white;
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
+
+}
+
 .card {
   /* border-radius: 10px; */
   /* box-shadow: 0 9px 0px 0px transparent, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(18, 20, 22, 0.8), -12px 0 15px -4px rgba(8, 16, 26, 0.8); */
@@ -132,12 +140,14 @@ h1{
   font-family: JetBrains Mono,monospace;
   color:white;
   font-weight: 400;
-  font-size:35px;
+  font-size:54px;
   line-height:90%;
   padding-bottom:140px;
   padding-top:150px;
   position:relative;
   text-align:center;
+  text-shadow: #000 2px 2px 4px;
+  font-weight: bold;
   
 }
 
