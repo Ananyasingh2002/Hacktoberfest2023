@@ -245,8 +245,10 @@ h1{
 }
 
 .card8{
-  background-image: url(assets/images/sami.jpg);
+  background-image: url(assets/images/AnuragVishwakarma.png);
+  background-size: contain;
 }
+
 
 
 
@@ -322,6 +324,10 @@ h1{
 
 .card23{
   background-image: url(assets/images/nimishhh.jpeg);
+}
+
+.card24{
+  background-image: url(assets/images/sami.jpg);
 }
 
 .line{
