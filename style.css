@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap");
 
 /* Go to line 216 for adding the image in css */
 
-*{
+* {
   margin: 0px;
   padding: 0;
 }
 
 #logo {
-    width: 20vw; 
-    height: 10vh; 
-    position: absolute;
-    top: 10px; 
-    left: 10px;
+  width: 20vw;
+  height: 10vh;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
-@media screen and (max-width: 1200px){
-  #logo{
-    width:20vh;
+@media screen and (max-width: 1200px) {
+  #logo {
+    width: 20vh;
   }
 }
 
-#hka{
+#hka {
   width: 60px;
 }
-.same{
+.same {
   display: flex;
   justify-content: space-between;
 }
@@ -35,13 +35,11 @@
   top: 20px;
   right: 40px;
   z-index: 9999;
-
 }
 
 .github a {
   text-decoration: none;
-  color: #000; 
- 
+  color: #000;
 }
 
 .card {
@@ -57,7 +55,6 @@
   align-items: center;
 }
 
-
 .centered-links {
   /* Optional: If you want to center the links within this container */
   display: flex;
@@ -65,87 +62,101 @@
   align-items: center;
 }
 
-
-.viewport{
-  position:relative;
+.viewport {
+  position: relative;
   background: linear-gradient(90deg, #20e6b3, #8e11f3, #4c20d4);
   background-size: 500% 500%;
   height: 100%;
-  width:100%;
-  -webkit-animation:   AnimationName 10s ease infinite;
+  width: 100%;
+  -webkit-animation: AnimationName 10s ease infinite;
   -moz-animation: AnimationName 10s ease infinite;
   animation: AnimationName 10s ease infinite;
-
-  
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.card p{
+.card p {
   font-family: lato;
-  margin:0px;
+  margin: 0px;
   color: black;
   font-weight: 400;
-  font-size:15px;
-  line-height:90%;
+  font-size: 15px;
+  line-height: 90%;
   padding-left: 8%;
   padding-right: 8%;
-  padding-top:3%;
-  padding-bottom:8%;
-  border-radius:20px;
-  cursor:pointer;
+  padding-top: 3%;
+  padding-bottom: 8%;
+  border-radius: 20px;
+  cursor: pointer;
   transition: ease 1s;
   -webkit-transition: ease 1s;
 }
 
-.card h3{
+.card h3 {
   font-family: lato;
-  margin:0px;
+  margin: 0px;
   color: black;
   font-weight: 400;
-  font-size:20px;
-  line-height:90%;
+  font-size: 20px;
+  line-height: 90%;
   padding-left: 8%;
-  padding-top:8%;
-  padding-bottom:3%;
-  border-radius:20px;
-  cursor:pointer;
+  padding-top: 8%;
+  padding-bottom: 3%;
+  border-radius: 20px;
+  cursor: pointer;
   transition: ease 1s;
   -webkit-transition: ease 1s;
 }
 
-h1{
-  font-family: JetBrains Mono,monospace;
-  color:white;
+h1 {
+  font-family: JetBrains Mono, monospace;
+  color: white;
   font-weight: 400;
-  font-size:35px;
-  line-height:90%;
-  padding-bottom:140px;
-  padding-top:150px;
-  position:relative;
-  text-align:center;
-  
+  font-size: 35px;
+  line-height: 90%;
+  padding-bottom: 140px;
+  padding-top: 150px;
+  position: relative;
+  text-align: center;
 }
 
-.title{
+.title {
   width: 50%;
-  margin:auto;
-  padding-left:0px;
-  padding-bottom:0px;
+  margin: auto;
+  padding-left: 0px;
+  padding-bottom: 0px;
 }
 
 .cards {
@@ -162,194 +173,181 @@ h1{
   grid-gap: 70px 10px; /* Optional gap between cards */
 }
 
-@media screen and (max-width: 1200px){
-  .cards{
+@media screen and (max-width: 1200px) {
+  .cards {
     grid-template-columns: 1fr;
   }
 }
 
-
-.card{
-  width:70%;
-  position:relative;
-  background-color:white;
-  margin:1.13%;
-  border-radius:5px;
+.card {
+  width: 70%;
+  position: relative;
+  background-color: white;
+  margin: 1.13%;
+  border-radius: 5px;
   transition: 1s;
-  -webkit-transition:0.5s;
-  cursor:pointer;
-    flex: 1 1 auto;
+  -webkit-transition: 0.5s;
+  cursor: pointer;
+  flex: 1 1 auto;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 1200px){
-  .card{
-  width:30%;
-  margin:1.6%;
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 30%;
+    margin: 1.6%;
   }
 }
 
-@media screen and (max-width: 800px){
-  .card{
-  width:45%;
-  margin:2.5%;
+@media screen and (max-width: 800px) {
+  .card {
+    width: 45%;
+    margin: 2.5%;
   }
 }
 
-@media screen and (max-width: 500px){
-  .card{
-  width:80%;
-  margin:2%;
+@media screen and (max-width: 500px) {
+  .card {
+    width: 80%;
+    margin: 2%;
   }
 }
 
-.card_img{
-  width:100%;
-  height:250px;
-  position:reltive;
+.card_img {
+  width: 100%;
+  height: 250px;
+  position: reltive;
   border-radius: 5px 5px 0px 0px;
   background-size: cover;
-  background-position:center center; 
+  background-position: center center;
   background-color: #20e6b3;
-  transition:1s;
-  -webkit-transition:1s;
+  transition: 1s;
+  -webkit-transition: 1s;
 }
 /* Here make a new class .card(as your number below) and add the same path of url(assets/images/yourimage.png)*/
-.card1{
-   background-image: url(assets/images/Ananya.jpg);
+.card1 {
+  background-image: url(assets/images/Ananya.jpg);
 }
-.card2{
+.card2 {
   background-image: url(assets/images/Yash.jpg);
 }
-.card3{
+.card3 {
   background-image: url(assets/images/Divya.jpg);
 }
-.card4{
-  background-image: url(assets/images/Aditya.jpg)
+.card4 {
+  background-image: url(assets/images/Aditya.jpg);
 }
 
-.card5{
-  background-image: url(assets/images/SyedSumaimaly.jpeg)
+.card5 {
+  background-image: url(assets/images/SyedSumaimaly.jpeg);
 }
 
-.card6{
-  background-image: url(assets/images/Mansi.jpg)
+.card6 {
+  background-image: url(assets/images/Mansi.jpg);
 }
 
-.card7{
-  background-image: url(assets/images/Sreerag.jpg)
+.card7 {
+  background-image: url(assets/images/Sreerag.jpg);
 }
 
-.card8{
+.card8 {
   background-image: url(assets/images/sami.jpg);
 }
 
-
-
-.card9{
+.card9 {
   background-image: url(assets/images/manisha.jpg);
 }
- 
-.card10{
-  background-image: url(assets/images/AnirudhBelwadi.jpeg)
+
+.card10 {
+  background-image: url(assets/images/AnirudhBelwadi.jpeg);
 }
 
-
-.card11{
-  background-image: url(assets/images/aviral.jpg)
+.card11 {
+  background-image: url(assets/images/aviral.jpg);
 }
 
-.card12{
-  background-image: url(assets/images/koppisettivenkatesh.jpg)
+.card12 {
+  background-image: url(assets/images/koppisettivenkatesh.jpg);
 }
 
-
-
-
-.card13{
-  background-image: url(assets/images/Satyajit-2003.jpeg)
+.card13 {
+  background-image: url(assets/images/Satyajit-2003.jpeg);
 }
 
-
-
-.card14{
-  background-image: url(assets/images/digvijaysinghh.jpeg)
+.card14 {
+  background-image: url(assets/images/digvijaysinghh.jpeg);
 }
 
-
-
-
-.card15{
-
-  background-image: url(assets/images/porkalai.jpg)
-
+.card15 {
+  background-image: url(assets/images/porkalai.jpg);
 }
 
-
-
-
-.card-16{
-  background-image: url(assets/images/shourya.jpg)
+.card-16 {
+  background-image: url(assets/images/shourya.jpg);
 }
 
-.card-17{
+.card-17 {
   background-image: url(assets/images/Rupayan-Dirghangi.jpg);
 }
 
-.card18{
-  background-image: url(assets/images/soubhik.jpg)
+.card18 {
+  background-image: url(assets/images/soubhik.jpg);
 }
 
-.card19{
-  background-image: url(assets/images/shubhankar-ranjan.jpg)
+.card19 {
+  background-image: url(assets/images/shubhankar-ranjan.jpg);
 }
 
-.card20{
-  background-image: url(assets/images/ankit.jpg)
+.card20 {
+  background-image: url(assets/images/ankit.jpg);
 }
-.card21{
+.card21 {
   background-image: url(assets/images/Lsam18.png);
 }
 
-
-.card22{
+.card22 {
   background-image: url(assets/images/Atharva.jpg);
 }
 
-.card23{
+.card23 {
   background-image: url(assets/images/nimishhh.jpeg);
 }
 
-.line{
-  height:2px;
-  width:84%;
-  margin:auto;
+.card24 {
+  background-image: url(assets/images/vinay-sankar.jpeg);
+}
+
+.line {
+  height: 2px;
+  width: 84%;
+  margin: auto;
   background-color: #8e11f3;
 }
 
-.title input{
+.title input {
   background: transparent;
-  border:1px solid white;
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left:20px;
-  display:inline;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: inline;
   font-family: lato;
   color: white;
-  font-size:18px;
-  line-height:90%;
-  border-radius:30px;
-  width:150px;
-  float:right;
-  margin-top:30px;
+  font-size: 18px;
+  line-height: 90%;
+  border-radius: 30px;
+  width: 150px;
+  float: right;
+  margin-top: 30px;
 }
 
-.title textarea:focus, input:focus{
-    outline: none;
+.title textarea:focus,
+input:focus {
+  outline: none;
 }
 
 /* .plus{
@@ -381,6 +379,6 @@ h1{
   color: white;
 } */
 
-.zoomed{
-  width:100%;
+.zoomed {
+  width: 100%;
 }
