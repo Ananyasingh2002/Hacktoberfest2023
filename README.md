@@ -6,7 +6,7 @@
 
 # Contributors to Hacktoberfest 2023
 
-<div align="center">
+<div align="center"> 
 
 <a href="https://github.com/Ananyasingh2002/Hacktoberfest2023/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Ananyasingh2002/Hacktoberfest2023" />
