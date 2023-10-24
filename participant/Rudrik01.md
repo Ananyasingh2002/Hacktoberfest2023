@@ -1,5 +1,5 @@
-
+---
 name: Rudrik Patel
-institution/company: Charotar University of Science and Technology
-github:Rudrik01
-
+institution/company: Charotar University Of Science And Technology
+github: Rudrik01
+---
