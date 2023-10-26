@@ -352,7 +352,11 @@ h1{
     outline: none;
 }
 
-/* .plus{
+
+.zoomed{
+  width:100%;
+}
+ .plus{
   width:20px;
   height:20px;
   background: transparent;
@@ -363,13 +367,13 @@ h1{
   right:10px;
   transition: 1s;
   -webkit-transition: 1s;
-} */
-/* 
+} 
+
 .plus:hover{
   transform: scale(1.1) rotate(90deg);
-} */
+} 
 
-/* .plus p{
+ .plus p{
   padding: 0px !important;
   display:inline;
   margin:0px;
@@ -379,8 +383,5 @@ h1{
   transform:translate(-50%,-50%);
   position:absolute;
   color: white;
-} */
+} 
 
-.zoomed{
-  width:100%;
-}
