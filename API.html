@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script>
+        const container=document.getElementById('container');
+        const request=new XMLHttpRequest();
+
+        request.open('GET', 'https://restcountries.com/v3.1/name/india');
+        request.send();
+
+        request.addEventListener('load',function(){
+                const [data]=JSON.parse(this.responseText);
+                const htmlData=`
+                <div id="card">
+                    <div class='card1'>
+                        <div class="card-body">
+                            <div class="card-body-img">
+                                <img src="${data.flags.png}" alt="" class="card-body-img1"/>
+                            </div>
+                            <h1 class="card-body-title"> 
+                                ${data.name.common} <span></span>
+                            </h1>
+                            <p class="card-body-text"> Capital:${data.capital}</p>
+                        </div>
+                        <div class=card-footer>
+                            <div class="card-footer-social">
+                                <h3>${data.demonyms.eng.f}</h3>
+                                <p>Demonym</p>
+                            </div>
+                            <div class="card-footer-social">
+                                <h3>${data.population}</h3>
+                                <p>Population</p>
+                            </div>
+                            <div class="card-footer-society">
+                                <h3>${data.region}</h3>
+                                <p>Region</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+
+
+                container.insertAdjacentHTML("afterbegin",htmlData);
+        })
+    </script>
+    <style>
+        *{
+            margin: 0px;
+            border: 0px;
+        }
+        body{
+            background-color: black;
+        }
+        #card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:700px;       
+        }
+        .card1{
+            background-color: white;
+            color:black;
+            height:380px;
+            width: 350px;
+            border-radius: 15px;
+        }
+        .card1:hover{
+            height:390px;
+            width: 360px;
+        }
+        .card-body-img{
+            display: flex;
+            justify-content: center;
+            height: 220px;
+            align-items: center;
+        }
+        .card-body-img1{
+            height: 200px;
+            width: 300px;
+        }
+        .card-body h1{
+            display: flex;
+            justify-content:center;
+        }
+        .card-body p{
+            display: flex;
+            justify-content:center ;
+        }
+        .card-footer{
+            display: flex;
+            justify-content: center;
+            margin:9px;
+            padding: 30px;
+        }
+        .card-footer-social{
+            padding-right:25px;
+        }
+        .card-footer-social h3{
+            text-align: center;
+        }
+        .card-footer-social p{
+            text-align: center;
+        }
+        .card-footer-society h3{
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
