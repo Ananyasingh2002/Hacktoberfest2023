@@ -3,6 +3,16 @@
 
 /* Go to line 216 for adding the image in css */
 
+#logo:hover {
+  transform: scale(1.2);
+
+    box-shadow: 0 0 10px #ff00cc;
+    filter: brightness(100%);
+    width: 300px;
+  
+  
+  
+}
 *{
   margin: 0px;
   padding: 0;
