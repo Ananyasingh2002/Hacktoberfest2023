@@ -1,0 +1,147 @@
+Name : Syed Maaz Saeed
+Github: https://github.com/syedmaazsaeed
+Project: Navigation Bar using HTML , CSS
+
+index.html : 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/navigationbar-Assignment5.css">
+</head>
+
+
+
+
+
+<body>
+    <header>
+        <nav class="parent1">
+
+            <p>Find a Gym</p>
+            <ul class="a1">
+                <li> <a href="#2"> Own a UFC GYM</a></li>
+                <li> <a href="#2"> Shop</a></li>
+                <li> <a href="https://www.ufcgym.com"> 👤 👽 Member Login</a></li>
+
+            </ul>
+        </nav>
+
+   
+        <nav class="parent">
+
+            <!-- <h1>UFC GYM </h1> -->
+            <div class="p"><img src="../images/ufcimages.jpg" alt="" height="50px" width="120px"></div>
+            <ul class="a2">
+                <li> <a href="#1"> Program & Classes</a></li>
+                <li> <a href="#1"> Train Different</a></li>
+                <li> <a href="#1"> Blog</a></li>
+                <li> <a href="#1"> Get a Free Pass</a></li>
+                <li> <a href="https://www.facebook.com/"> f</a></li>
+                <li> <a href="https://www.twitter.com/"> Twitter</a></li>
+                <li><a href=""></a></li>
+
+            </ul>
+        </nav>
+    
+   
+        <nav class="mq">
+            <ul class="a3">
+                <li> <a href="#">Training</a> </li>
+                <li> <a href="#"> Group Fit</a></li>
+                <li> <a href="#"> Functional Fitness</a></li>
+                <li> <a href="#"> Mixed Material Arts</a></li>
+                <li> <a href="#"> Youth Classes</a></li>
+                <li> <a href="#"> Brazilian Jiu-Jitsu</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
+
+
+
+stylesheet.css 
+
+
+.parent{
+    display: flex;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+   
+   
+}
+.a1{
+    list-style-type: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+   background-color: darkred;
+}
+.parent1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+a2{
+    list-style-type: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+   
+}
+li:hover{
+   background-color: darkred;
+}
+.mq{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.mq{
+    list-style-type: none;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 10px 30px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+   
+}
+li:hover{
+   background-color: darkred;
+}
+.p{
+    padding: 5px;
+}
