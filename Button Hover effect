@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hover</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Georgia", sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background: #161616fa;
+            min-height: 100vh;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .rectangle {
+            position: fixed;
+            z-index: 10;
+            transition: 0.5s;
+            padding: 20px;
+            height: 100vh;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        ion-icon {
+            pointer-events: none;
+        }
+
+        .rectangle:hover {
+            z-index: 1000;
+            backdrop-filter: blur(50%);
+        }
+
+        .rectangle ul {
+            display: list-item;
+            list-style: none;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #161616fa;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(109, 109, 109);
+            border-radius: 20px;
+        }
+
+        .rectangle ul li {
+            position: relative;
+            list-style: none;
+            width: auto;
+            height: auto;
+            z-index: 1;
+        }
+
+        .rectangle ul li a {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            transition: 0.5s;
+        }
+
+        .rectangle ul li a .icon {
+            padding: 5px;
+            position: relative;
+            line-height: auto;
+            transition: 0.5s;
+            font-size: auto;
+            border-radius: 20%;
+            transition: 0.3s ease-in;
+            position: relative;
+            border: 1px solid transparent;
+        }
+
+        .text {
+            display: none;
+            left: 30px;
+            position: absolute;
+            padding: 5px;
+            opacity: 0;
+        }
+
+        .rectangle ul:hover li a .icon {
+            opacity: 0.05;
+        }
+
+        .rectangle ul li a:hover .icon {
+            opacity: 1;
+            margin: 1rem 0;
+            padding-bottom: 1px;
+        }
+
+        .rectangle ul li a:hover .text {
+            display: block;
+            left: 60px;
+            position: absolute;
+            opacity: 0;
+            font-size: 1.8rem;
+            transition: 2s;
+        }
+
+        .rectangle ul li:nth-child(1) a .icon:hover {
+            color: rgb(255, 178, 123);
+            box-shadow: 0 0px 5px 0 rgb(255, 178, 123);
+            transform: scale(1.7) translateX(5px);
+        }
+
+        .rectangle ul li:nth-child(1) a:hover .text {
+            color: rgb(255, 178, 123);
+            opacity: 1;
+            text-shadow: 1px 1px 10px chocolate;
+        }
+
+        .rectangle ul li:nth-child(2) a .icon:hover {
+            color: #ff3853;
+            box-shadow: 0 0px 5px 0 #ff3853;
+            border: 1px solid #ff3853;
+            transform: scale(1.7) translateX(5px);
+        }
+
+        .rectangle ul li:nth-child(2) a:hover .text {
+            color: salmon;
+            opacity: 1;
+            text-shadow: 1px 1px 10px #ff3853;
+        }
+
+        .rectangle ul li:nth-child(3) a .icon:hover {
+            color: #00d0ff;
+            box-shadow: 0 0px 5px 0 #00d0ff;
+            border: 1px solid #00d0ff;
+            transform: scale(1.7) translateX(5px);
+        }
+
+        .rectangle ul li:nth-child(3) a:hover .text {
+            color: lightskyblue;
+            opacity: 1;
+            text-shadow: 1px 1px 10px #00d0ff;
+        }
+
+        .rectangle ul li:nth-child(4) a .icon:hover {
+            color: #ff0086;
+            box-shadow: 0 0px 5px 0 #ff0086;
+            border: 1px solid #ff0086;
+            transform: scale(1.7) translateX(5px);
+        }
+
+        .rectangle ul li:nth-child(4) a:hover .text {
+            color: lightpink;
+            opacity: 1;
+            text-shadow: 1px 1px 10px #ff0086;
+        }
+
+        .rectangle ul li:nth-child(5) a .icon:hover {
+            color: #ffb300;
+            box-shadow: 0 0px 5px 0 #ffb300;
+            border: 1px solid #ffb300;
+            transform: scale(1.7) translateX(5px);
+        }
+
+        .rectangle ul li:nth-child(5) a:hover .text {
+            color: burlywood;
+            opacity: 1;
+            text-shadow: 1px 1px 10px #ffb300;
+        }
+
+        .rectangle ul li:nth-child(6) a .icon:hover {
+            color: #1cc41c;
+            box-shadow: 0 0px 5px 0 #1cc41c;
+            border: 1px solid #1cc41c;
+            transform: scale(1.7) translateX(5px);
+        }
+
+        .rectangle ul li:nth-child(6) a:hover .text {
+            color: lightgreen;
+            opacity: 1;
+            text-shadow: 1px 1px 10px #1cc41c;
+        }
+
+        .rectangle ul li:nth-child(7) a .icon:hover {
+            color: #15f4ee;
+            box-shadow: 0 0px 5px 0 #15f4ee;
+            border: 1px solid #15f4ee;
+            transform: scale(1.7) translateX(5px);
+        }
+
+        .rectangle ul li:nth-child(7) a:hover .text {
+            color: #73fdf9;
+            opacity: 1;
+            text-shadow: 1px 1px 10px #15f4ee;
+        }
+
+        .homeContainer {
+            background: #161616fa;
+            color: rgb(255, 77, 77);
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            max-height: 100vh;
+            width: 100%;
+            max-width: 100%;
+            letter-spacing: 2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .homeContainer p {
+            color: white;
+            font-size: 50px;
+            text-transform: capitalize;
+        }
+
+        .homeContainer p:nth-child(2) {
+            padding-left: 8px;
+        }
+
+        .typed {
+            line-height: 100px;
+            padding-left: 5px;
+            color: rgb(255, 77, 77);
+            text-shadow: 0 0 2px red;
+            font-size: 30px;
+            font-weight: 20;
+        }
+
+        .aboutcontainer {
+            display: grid;
+            gap: 0;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            height: 100vh;
+            width: 100%;
+        }
+
+        .aboutcontainer .container1 {
+            height: 100vh;
+            width: 50%;
+            background-color: blue;
+        }
+
+        .aboutcontainer .container2 {
+            height: 100vh;
+            width: 50%;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!---menu starts--->
+    <div class="rectangle">
+        <ul>
+            <li class="list active">
+                <a href="#home">
+                    <span class="icon" type="Button">
+                        <ion-icon name="home">
+                        </ion-icon>
+                    </span>
+                    <div class="text">Home</div>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#about">
+                    <span class="icon" type="Button">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <div class="text">About Me</div>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#edu">
+                    <span class="icon" type="Button">
+                        <ion-icon name="book"></ion-icon>
+                    </span>
+                    <div class="text">Education</div>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#exp">
+                    <span class="icon" type="Button">
+                        <ion-icon name="briefcase"></ion-icon>
+                    </span>
+                    <div class="text">Work & Experience</div>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#git">
+                    <span class="icon" type="Button">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </span>
+                    <div class="text">GitHub Porfile</div>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#contact">
+                    <span class="icon" type="Button">
+                        <ion-icon name="chatbubbles"></ion-icon>
+                    </span>
+                    <div class="text">Contact Me</div>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#help">
+                    <span class="icon" type="Button">
+                        <ion-icon name="Help"></ion-icon>
+                    </span>
+                    <div class="text">Help?</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="homeContainer" id="home">
+        <div class="st1">
+            <p>GAURAV</p>
+            <p>BHATT</p>
+        </div>
+        <ul class="welcome-text">
+            <h1><span class="typed"></span></h1>
+        </ul>
+    </div>
+    <div class="aboutContainer" id="about">
+        <div class="container1"></div>
+        <div class="container2"></div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        var typed = new Typed('.typed', {
+            strings: ["Learner", "Student", "Developer"],
+            smartBackspace: false,
+            loop: true,
+            showCursor: true,
+            cursorChar: "_",
+            typeSpeed: 50,
+            backSpeed: 30,
+            startDelay: 800
+        });
+    </script>
+</body>
+
+</html>
