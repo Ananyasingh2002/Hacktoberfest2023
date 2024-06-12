@@ -8,7 +8,9 @@ public:
             int k=t-a;
             l=i+1,h=n-1;
             while(l<h) {
-                int bc=nums[l]+nums[h];
+                int x = nums[l];
+                int y = nums[h];
+                int bc=x+y;
                 if(bc<k) {
                     l++;  
                 } else if(bc>k) {
