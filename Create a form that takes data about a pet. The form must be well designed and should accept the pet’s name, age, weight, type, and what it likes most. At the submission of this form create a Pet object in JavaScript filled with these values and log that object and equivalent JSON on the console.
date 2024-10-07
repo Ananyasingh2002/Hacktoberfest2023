@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        label,
+        input,
+        button {
+            border: 0;
+            margin-bottom: 3px;
+            display: block;
+            width: 100%;
+        }
+
+        .common_box_body {
+            padding: 15px;
+            border: 12px solid #28BAA2;
+            border-color: #28BAA2;
+            border-radius: 15px;
+            margin-top: 10px;
+            background: #d4edda;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="common_box_body test">
+        <h2> Pet Registration</h2>
+        <h3 id="po">Input Array Elements</h3>
+        <form action="#" name="registration" id="registration">
+
+            <label for="petname">Pet Name</label>
+            <input type="text" name="array[]" id="petname" placeholder="Mitthu"><br>
+
+            <label for="Age">Age</label>
+            <input type="number" name="array[]" id="age" placeholder="age"><br>
+
+            <label for="weight">Weight</label>
+            <input type="number" name="array[]" id="weight" placeholder=""><br>
+
+            <label for="Type">Type</label>
+            <input type="text" name="array[]" id="type" placeholder=""><br>
+
+            Select Likes(s): <br>
+            <input type="checkbox" id="Likes" name="Playing" value="Playing">
+            <label for="like1">Playing<label><br>
+                    <input type="checkbox" id="Likes" name="Sleeping" value="Sleeping">
+                    <label for="like2"> Sleeping</label><br>
+                    <input type="checkbox" id="Eating" name="Eating" value="Eating">
+                    <label for="like3"> Eating</label><br>
+                    <button type="button" id="submit" name="button">
+                        Submit
+                    </button>
+        </form>
+        <br>
+    </div>
+    <div id="showTable"></div>
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#submit").click(function () {
+                pname = $("#petname").val();
+                age = $("#age").val();
+                weight = $("#weight").val();
+                type = $("#type").val();
+                const likes = [];
+                $("input[type=checkbox]:checked").each(function () {
+                    likes.push($(this).val());
+                });
+                function pet(pname, age, weight, type, likes) {
+                    this.pname = pname;
+                    this.age = age;
+                    this.weight = weight;
+                    this.type = type;
+                    this.likes = likes;
+                }
+                var pet1 = new pet(pname, age, weight, type, likes);
+                console.log(pet1)
+                console.log(JSON. stringify(pet1));                                                                                                                                                                                       //Read Object
+                }
+               
+            );
+        });
+    </script>
+    <script src="jquery-3.6.1.min.js"></script>
+</body>
+
+</html>
